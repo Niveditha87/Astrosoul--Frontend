@@ -57,7 +57,7 @@ const PublicNavbar = () => {
                             BOOK A CALL
                         </div>
                             <div className='p-2 ml-5'>
-                                <a href=''> Login</a>
+                                <a href='/login'> Login</a>
                           
                         </div>
                     </div>
