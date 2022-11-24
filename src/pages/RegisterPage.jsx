@@ -1,7 +1,10 @@
 import React from "react";
 // import lognImg from "../../images/logo.jpeg";
 // import PublicNavbar from "../Navbar/PublicNavbar";
-// import panditji from "../../images/panditji.png"
+import panditji from "../images/panditji.png";
+import shopkeeper from "../images/user.jpeg";
+import officeman from "../images/store.png";
+
 
 
 const Register = () => {
@@ -15,7 +18,7 @@ const Register = () => {
 
                 <div className="flex flex-col justify-center items-center h-full">
 
-                    <div className="flex flex-col items-center justify-center mb-10">
+                    <div className="flex flex-col items-center justify-center mb-10 mt-10">
                         <div>
                             <h3 className=" text-2xl font-bold font-heading uppercase">
                                 {/* Header */}
@@ -28,6 +31,7 @@ const Register = () => {
                         {/* <div className="flex"> */}
 
                         {/* </div> */}
+
                     </div>
 
                     {/* card starting */}
@@ -42,14 +46,22 @@ const Register = () => {
         See our guideline
         <svg class="w-5 h-5 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path></svg>
     </a> */}
-                        <div class="grid grid-cols-3 gap-4 place-items-stretch h-56 ">
-                            <div className="border border-slate-400 rounded-full h-[5rem] w-[5rem] items-center justify-center">
-                                <img src="" alt="" className="w-full" />
-                            </div>
-                            <div className="border border-slate-400 rounded-full h-[5rem]">
+                        {/* <div class="flex items-center">
+      <img class="w-10 h-10 rounded-full mr-4" src={panditji} alt="Avatar of Jonathan Reinink"/>
+      {/* <div class="text-sm">
+        <p class="text-gray-900 leading-none">Jonathan Reinink</p>
+        <p class="text-gray-600">Aug 18</p>
+</div> 
+    </div> */}
 
-                            </div>
-                            <div className="border border-slate-400 rounded-full h-[5rem]"></div>
+                        <div class="grid grid-cols-3 gap-4 place-items-stretch h-56 ">
+                            {/* <div className="border border-slate-400 rounded-full h-[5rem] w-[5rem] items-center justify-center">  */}
+                            <img src={panditji} className="border border-slate-400 rounded-full h-[5rem] w-[5rem]" />
+                            {/* </div>  */}
+                            <img src={shopkeeper} className="border border-slate-400 rounded-full h-[5rem] w-[5rem]" />
+                            <img src={officeman} className="border border-slate-400 rounded-full h-[5rem] w-[5rem]" />
+
+
                         </div>
                     </div>
 
