@@ -44,7 +44,7 @@ const LoginPage = () => {
                                 <Link to="/otp">
                                     <button
                                         type="submit"
-                                        className="py-4 w-full bg-rose-500 hover:bg-rose-600 text-white font-bold rounded-lg transition duration-200"
+                                        className="py-4 w-full bg-[#ff0000] hover:bg-[#ff4d00] text-white font-bold rounded-lg transition duration-200"
                                     >
                                         Login
                                     </button>

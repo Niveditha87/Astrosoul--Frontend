@@ -6,7 +6,10 @@ import Home from "./pages/HomePage";
 import Login from "./pages/LoginPage"
 import Register from "./pages/RegisterPage";
 import OTP from "./pages/OTPpage";
+import Language  from './components/Language'
+import Sidebar from "./components/Sidebar"
 function App() {
+   
   return (
     <BrowserRouter>
       <PublicNavbar />
@@ -15,7 +18,8 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/Register" element={<Register />} />
         <Route path="/otp" element={<OTP />} />
-        {/* <Route path='/login' element={<Login />} /> */}
+        <Route path="/language" element={<Language />} />
+        <Route path="/sidebar" element={<Sidebar />} />
       </Routes>
     </BrowserRouter>
     // <h1 className="text-8xl  font-bold underline ">Hello world!</h1>

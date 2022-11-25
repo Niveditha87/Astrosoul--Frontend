@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import banner from '../images/Home2.jpg'
 import image1 from '../images/image1.jpg'
 import pic from '../images/new.png'

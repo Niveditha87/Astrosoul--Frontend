@@ -2,6 +2,7 @@ import React from "react";
 // import PublicNavbar from "../Navbar/PublicNavbar";
 import { BsTelephone } from "react-icons/bs";
 import { FiPhoneCall } from "react-icons/fi";
+import { Link } from "react-router-dom";
 const OTPpage = () => {
     return (
         <>
@@ -44,12 +45,15 @@ const OTPpage = () => {
             </div> */}
                                 {/* <div className="flex flex-col item-center justify-center"> */}
                                 {/* <div> */}
-                                <button
-                                    type="submit"
-                                    className="py-4 w-full bg-rose-500 hover:bg-rose-600 text-white font-bold rounded-lg transition duration-200"
-                                >
-                                    Login
-                                </button>
+                                <Link to="/register" >
+                                    <button
+                                        type="submit"
+                                        className="py-4 w-full bg-[#ff0000] hover:bg-[#ff4d00] text-white font-bold rounded-lg transition duration-200"
+                                    >
+                                        Login
+                                    </button>
+                                </Link>
+
                                 {/* </div> */}
 
                                 {/* </div> */}
