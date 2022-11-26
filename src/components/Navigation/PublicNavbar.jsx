@@ -47,7 +47,9 @@
 //                             </a>
 //                             <h1 className='3xl ml-2 font-sans '>AstroSoul</h1>
 //                 </div>
-//                 <div className=" ml-10 grid grid-rows-2 grid-flow-col items-end gap-3 ">
+//                 
+
+//<div className=" ml-10 grid grid-rows-2 grid-flow-col items-end gap-3 ">
 //                     <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-orange-600 md:z-auto z-[-1] left-0 md:w-auto md:pl-0 transition-all duration-500 ease-in ${open ? 'top:8rem ' : 'top-[-490px]'}`}>
 //                         {
 //                             Links.map((link) => (
@@ -143,11 +145,11 @@ const PublicNavbar = () => {
     return (
         <Disclosure
             as="nav"
-            className="bg-orange-700 shadow-md shadow-gray-300 sticky top-0 z-50 "
+            className="container bg-orange-700 shadow-md shadow-gray-300 sticky top-0 z-50 "
         >
             {({ open }) => (
                 <>
-                    <div className=" mx-auto px-4 sm:px-6 lg:px-8 h-[100px] ">
+                    <div className=" container px-4 sm:px-6 lg:px-8 h-[100px] ">
                         <div className="flex  h-24">
                             <div className="flex ">
                                 <div className="-ml-2 mr-2 flex items-center md:hidden ">

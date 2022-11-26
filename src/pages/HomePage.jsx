@@ -3,6 +3,7 @@ import Home from "../components/Home";
 import Slider from '../components/Slider';
 import Category from '../components/Categories';
 import image from '../images/new.png'
+// import PublicNavbar from '../components/Navigation/PublicNavbar';
 function HomePage() {
   const slides = [
     { url: 'https://www.colorcombos.com/images/colors/FFA700.png', title: "beach" },
@@ -19,10 +20,11 @@ function HomePage() {
   };
   return (
     <div className='container mt-5 w-full'>
+      {/* <PublicNavbar /> */}
       <div style={containerStyles} className="md:w-full">
         <Slider slides={slides} />
       </div>
-      {/* <Category />   */}
+      <Category />  
     </div>
   )
 }
