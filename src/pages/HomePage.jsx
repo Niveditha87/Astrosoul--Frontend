@@ -12,17 +12,17 @@ function HomePage() {
     { url: "https://www.clickastro.com/blog/wp-content/uploads/2021/03/blog_famous-astrologers-1-1.jpg", title: "italy" },
   ];
   const containerStyles = {
-    width: "1200px",
-    height: "300px",
-    margin: "0 auto",
+    // width: "1200px",
+    // height: "300px",
+    // margin: "0 auto",
     
   };
   return (
     <div className='container mt-5 w-full'>
-      <div style={containerStyles} className="w-screen">
+      <div style={containerStyles} className="md:w-full">
         <Slider slides={slides} />
       </div>
-      <Category />  
+      {/* <Category />   */}
     </div>
   )
 }
