@@ -8,7 +8,7 @@ import Vedic from '../components/Vedic'
 import panditji from '../images/panditji.png'
 import store from '../images/store.png'
 import horoscope from '../images/horoscope.png'
-// import StarRating from '../components/StarRating'
+import StarRating from '../components/StarRating'
 // import PublicNavbar from '../components/Navigation/PublicNavbar';
 function HomePage() {
   const slides = [
@@ -36,14 +36,14 @@ function HomePage() {
         <div className=' p-40 '>
           <button className=' bg-orange-600 flex mx-auto p-3 font-bold text-white border rounded-xl'>Book Now</button>
         </div>
-      </div>
-      <div>
+       </div>
+       <div>
         <div>
           <div className='flex justify-between'>
             <h1 className='h-10 mt-5 text-xl font-bold flex '>
               Vedic
             </h1>
-       
+
             <h1 className='h-10 mt-5 text-xl font-bold '>
               View More
             </h1>
@@ -51,7 +51,7 @@ function HomePage() {
         </div>
       
 
-
+        <Vedic/>
         <div className="  grid grid-cols-4 gap-4 justify-center  mt-5  ">
 
           <div
@@ -65,7 +65,7 @@ function HomePage() {
               <h1 className='flex justify-center mx-auto mt-5 text-lg'>Find Panditji</h1>
             </div>
 
-
+            <StarRating />
           </div>
           <div
             className=' h-36 w-60  bg-white flex justify-center flex-col m-10 '
@@ -78,7 +78,7 @@ function HomePage() {
               <h1 className='flex justify-center mx-auto mt-5 text-lg'>Pooja Samagthi/Store</h1>
             </div>
             {/* <div> */}
-              {/* <StarRating/> */}
+              <StarRating/>
 
 
           </div>
