@@ -114,13 +114,8 @@ import {
 import { PlusIcon } from "@heroicons/react/solid";
 import logo1 from '../../images/logo1.png'
 
-const PuvlicNavabar = [
-    // { name: "Home", href: "/", current: true },
-    // { name: "Create", href: "/create-post", current: false },
-    // { name: "Posts", href: "/posts", current: false },
-    // { name: "Register", href: "/register", current: false },
-    // { name: "Login", href: "/login", current: false },
-];
+
+
 let Links = [
         { name: "Book Mark", link: "/" },
         { name: "Help & Support", link: "/wishlist" },
@@ -146,16 +141,16 @@ const PublicNavbar = () => {
     return (
         <Disclosure
             as="nav"
-            className="container md:bg-orange-700 shadow-md shadow-gray-300 sticky top-0 z-50 "
+            className="container-fluid bg-orange-700 shadow-md shadow-gray-300 sticky top-0 z-50 "
         >
             {({ open }) => (
                 <>
-                    <div className=" container px-4 sm:px-8 lg:px-8 h-[100px] ">
+                    <div className=" container px-4 sm:px-8 lg:px-8 h-[100px] w-screen">
                         <div className="flex  h-24">
                             <div className="flex ">
                                 <div className="-ml-2 mr-2 flex items-center md:hidden ">
                                     {/* Mobile menu button */}
-                                    <Disclosure.Button className="inline-flex items-center justify-center rounded-md text-black sm:justify-start md:text-white hover:text-white hover:bg-gray-400 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                                    <Disclosure.Button className="inline-flex items-center justify-center rounded-md text-white sm:justify-start md:text-white hover:text-white hover:bg-gray-400 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                                         {/* <span className="sr-only">Open main menu</span> */}
                                         {open ? (
                                             <XIcon className="block h-6 w-6" aria-hidden="true" />
@@ -173,26 +168,26 @@ const PublicNavbar = () => {
                                     <p className=' text-3xl ml-2 font-inria '>AstroSoul</p>
                                   
                                 </div>
-
-                                <div className=" grid grid-rows-2 grid-flow-col w-auto ml-[500px] gap-x-0.5 ">
-                                    <ul className={`gap-4 justify-end sm: hidden md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-orange-700 md:z-auto z-[-1] left-0 md:w-auto md:pl-0 transition-all duration-500 ease-in ${open ? 'top:8rem ' : 'top-[-490px]'}`}>
+                                {/* grid grid-rows-2 grid-flow-col w-auto ml-[500px] gap-x-1 */}
+                                <div className=" ml-96 mt-5">
+                                    <ul className={`gap-0 justify-end sm: hidden md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-orange-700 md:z-auto z-[-1] left-0 md:w-auto md:pl-0 transition-all duration-500 ease-in ${open ? 'top:8rem ' : 'top-[-490px]'}`}>
                                         {
                                             Links.map((link) => (
-                                                <li key={link.name}>
-                                                    {/* <div className='bg-orange-700 w-[140px] h-12 mt-5 text-center rounded-lg pt-1  '> */}
-                                                    <a href={link.link} className='font-serif text-black hover:text-orange-800 duration-500  '>{link.name}</a>
-                                                    {/* </div> */}
+                                                <li key={link.name} >
+
+                                                    <a href={link.link} className='font-serif text-white hover:text-orange-900 duration-500 mr-8 '>{link.name}</a>
+
                                                 </li>
                                             ))
                                         }
 
                                     </ul>
-                                    <ul className={`gap-4 justify-end sm: hidden md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-orange-700 md:z-auto z-[-1] left-0 md:w-auto md:pl-0 transition-all duration-500 ease-in ${open ? 'top:8rem ' : 'top-[-490px]'}`}>
+                                    <ul className={`mt-3 gap-4 justify-end sm: hidden md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-orange-700 md:z-auto z-[-1] left-0 md:w-auto md:pl-0 transition-all duration-500 ease-in ${open ? 'top:8rem ' : 'top-[-490px]'}`}>
                                         {
                                             Linknew.map((link) => (
                                                 <li key={link.name} >
                                          
-                                                    <a href={link.link} className='font-serif text-black hover:text-orange-800 duration-500 mr-8 '>{link.name}</a>
+                                                    <a href={link.link} className='font-serif text-white hover:text-orange-900 duration-500 mr-8 '>{link.name}</a>
                                                 
                                                 </li>
                                             ))

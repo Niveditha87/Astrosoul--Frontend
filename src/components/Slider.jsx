@@ -69,61 +69,63 @@ const Slider = ({ slides }) => {
     };
 
     return (
-        <div style={sliderStyles} className="container flex justify-center w-full">
-          <div className="w-[100%] mx-auto ">
-            <div>
-                <div onClick={goToPrevious} style={leftArrowStyles}>
-                    ❰
+        <div style={sliderStyles} className=" container-fluid ">
+                <div className="  w-[100%] mx-auto ">
+                
+                    <div onClick={goToPrevious} style={leftArrowStyles}>
+                        ❰
                     </div>
-                    <div className="bg-black">
-                      <div style={slideStylesWidthBackground} className="">
-                        <div className="text-black flex justify-between">
-                            <div className='ml-10 mt-10 font-extrabold'>
-                                <div>
-                                    <a href="" >e-Pooja</a>
+                    <div className="bg-orange-300 container-fluid">
+                        <div style={slideStylesWidthBackground} className="">
+                            <div className="text-black flex w-full flex-row md:flex-row md:justify-between ">
+                                <div className='ml-10 mt-10 font-extrabold'>
+                                    <div>
+                                        <a href="" >e-Pooja</a>
+                                    </div>
+                                    <div>
+                                        <a href="" >Marriage Ceremony</a>
+                                    </div>
+                                    <div>
+                                        <a href="" >Sanskar Vidhi</a>
+                                    </div>
                                 </div>
-                                <div>
-                                    <a href="" >Marriage Ceremony</a>
-                                </div>
-                                <div>
-                                    <a href="" >Sanskar Vidhi</a>
-                                </div>
-                            </div>
                             <img
                                 className=' h-48 mb-8 mt-14 mr-96'
                                 src={pic}
                             />
-                            <div className='mb-16'>
-                                <h1 className='text-3xl font-bold mt-10 '>Pandit Online</h1>
-                                <div className=' bg-orange-600 mt-5 border rounded-md'>
-                                    <button className='flex mx-auto p-2 font-bold text-white'>Book Now</button>
+                                <div className='mb-16'>
+                                  
+                                    <h1 className='text-3xl font-bold mt-10 '>Pandit Online</h1>
+                                    {/* <div className=' bg-orange-600 mt-5 border rounded-md'> */}
+                                    <button className=' bg-orange-600 flex mx-auto p-2 font-bold text-white w-200'>Book Now</button>
+                                    {/* </div> */}
+
                                 </div>
 
+
+                                <div className=' font-bold mt-5 md:mt-44 mb-5 mr-5'>
+
+                                    <div>
+                                        <a href="" >Kath</a>
+                                    </div>
+                                    <div>
+                                        <a href="" >Festival Pooja</a>
+                                    </div>
+                                    <div>
+                                        <a href="" >Diwali Aarti</a>
+                                    </div>
+                                </div>
                             </div>
-
-
-                            <div className=' font-bold mt-44 mb-5 mr-5'>
-
-                                <div>
-                                    <a href="" >Kath</a>
-                                </div>
-                                <div>
-                                    <a href="" >Festival Pooja</a>
-                                </div>
-                                <div>
-                                    <a href="" >Diwali Aarti</a>
-                                </div>
-                            </div>
-                        </div>
                         </div>
                     </div>
-                <div onClick={goToNext} style={rightArrowStyles}>
-                    ❱
-                    </div>      
-            </div>
-           
+                    <div onClick={goToNext} style={rightArrowStyles}>
+                        ❱
+                    </div>
+               
+                </div>
+
             <div style={dotsContainerStyles} className="flex w-full">
-                
+
                 {slides.map((slide, slideIndex) => (
                     <div
                         style={dotStyle}
@@ -133,7 +135,6 @@ const Slider = ({ slides }) => {
                         ●
                     </div>
                 ))}
-                </div>
             </div>
         </div>
     );

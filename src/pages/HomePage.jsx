@@ -27,9 +27,9 @@ function HomePage() {
   return (
     <div className='container mt-5 w-full'>
       {/* <PublicNavbar /> */}
-      <div style={containerStyles} className="md:w-full">
+      {/* <div style={containerStyles} className="container-fluid md:w-full"> */}
         <Slider slides={slides} />
-      </div>
+      {/* </div> */}
       <Category />  
 
       <div className='banner w-full bg-orange-200'>
