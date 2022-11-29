@@ -147,7 +147,7 @@ const Register = () => {
                         <div>
                             <h3 className=" text-2xl font-bold font-heading uppercase">
                                 {/* Header */}
-                                Astrotalk
+                                AstroSoul
                             </h3>
                         </div>
                         <div>

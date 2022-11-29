@@ -1,0 +1,94 @@
+import React from 'react'
+import horoscope from '../images/horoscopee.png'
+import { AiOutlineHome } from 'react-icons/ai'
+
+function TodayHoroscope() {
+  return (
+      <>
+          
+          <div className='container mx-auto bg-orange-500 h-[300px] '>
+              <div className='flex justify-between ml-24'>
+                  <div className='ml-10'>
+                      <div className='text-5xl font-semibold mt-16 border-b-4'>
+                          Today's Horoscope
+                      </div>
+                      <div className='text-3xl mt-10'>
+                          Check your today's horoscope 
+                      </div>
+                  </div>
+                  <div>
+                      <img src={horoscope} alt="/" className='h-[250px] mr-20 mt-5' />
+                  </div>
+              </div>
+          </div>
+          <div className='bg-gray-200 flex flex-row pl-20 '>
+              <div className='mt-4'>
+                  <AiOutlineHome size={ 20} />
+              </div>
+              <div className='ml-2 bg-orange-500 border rounded-lg  m-2 p-1 w-52 flex justify-center'>
+                Today's Horoscope
+              </div>
+          </div>
+           <div className='container m-4 '>
+              <div className='m-20'>
+                  <div className='flex justify-center text-3xl font-semibold p-3'>
+                      TODAY'S HOROSCOPE
+                  </div>
+                  <div className='flex justify-center text-xl text-gray-600'>
+                      Know Your Today's Horoscope
+                  </div>
+                  <div className=''>
+                      <h1 className='text-lg font-bold'>Today’s horoscope for zodiac signs</h1>
+                      
+                      <div className='mt-2'>
+                          <p className='text-gray-500 break-all'>Reading your Today’s horoscope is one of the best ways to predict your future. The foretelling of the future through the Daily horoscope is an ancient practice and finds relevance even today. The horoscope prediction is about predicting the individual's future based on various astrological aspects such as the position of the planets, Nakshatras, Tithi, and much more. However, it’s predominantly the movement of planets from one house of the Kundli to another that influences the life of the native and thus his Daily horoscope. As planets are in motion, their position in the chart of the native on a daily basis virtually decides the course of his life and fortune.</p>
+                      </div>
+                      <div className='mt-2'>
+                          <p className='text-gray-500 break-all'>Reading your Today’s horoscope is one of the best ways to predict your future. The foretelling of the future through the Daily horoscope is an ancient practice and finds relevance even today. The horoscope prediction is about predicting the individual's future based on various astrological aspects such as the position of the planets, Nakshatras, Tithi, and much more. However, it’s predominantly the movement of planets from one house of the Kundli to another that influences the life of the native and thus his Daily horoscope. As planets are in motion, their position in the chart of the native on a daily basis virtually decides the course of his life and fortune.</p>
+                      </div>
+                      <div className='mt-2'>
+                          <p className='text-gray-500 break-all'>Reading your Today’s horoscope is one of the best ways to predict your future. The foretelling of the future through the Daily horoscope is an ancient practice and finds relevance even today. The horoscope prediction is about predicting the individual's future based on various astrological aspects such as the position of the planets, Nakshatras, Tithi, and much more. However, it’s predominantly the movement of planets from one house of the Kundli to another that influences the life of the native and thus his Daily horoscope. As planets are in motion, their position in the chart of the native on a daily basis virtually decides the course of his life and fortune.</p>
+                      </div>
+                      <div className='mt-2'>
+                          <p className='text-gray-500 break-all'>Reading your Today’s horoscope is one of the best ways to predict your future. The foretelling of the future through the Daily horoscope is an ancient practice and finds relevance even today. The horoscope prediction is about predicting the individual's future based on various astrological aspects such as the position of the planets, Nakshatras, Tithi, and much more. However, it’s predominantly the movement of planets from one house of the Kundli to another that influences the life of the native and thus his Daily horoscope. As planets are in motion, their position in the chart of the native on a daily basis virtually decides the course of his life and fortune.</p>
+                      </div>
+                  </div>
+
+              </div>
+              
+          </div>
+          <div className='bg-orange-600'>
+              <div className='flex justify-center p-10 text-2xl font-medium '>
+                  ALSO CHECK
+              </div>
+              <div>
+                  <div className='flex pl-20 pr-20 justify-center'>
+                      <div className=''>
+                          <img src="https://astrotalk.com/assets/images/also-check/today_1.webp" className=' border border-black rounded-lg pl-3 pr-3' />
+                          <h1 className='mt-3 font-bold text-lg'>Today's Horoscope</h1>
+                      </div>
+                      <div className='ml-20'>
+                          <img src="https://astrotalk.com/assets/images/also-check/tomorrow_1.webp" className=' border border-black rounded-lg  ml-2' />
+                          <h1 className='mt-3 font-bold text-lg'>Tomorrow's Horoscope</h1>
+                      </div>
+                      <div className='ml-20'>
+                          <img src="https://astrotalk.com/assets/images/also-check/yesterday_1.webp" className=' border border-black rounded-lg  ml-2' />
+                          <h1 className='mt-3 font-bold text-lg'>Yesterday's Horoscope</h1>
+                      </div>
+                      <div className='ml-20'>
+                          <img src="https://astrotalk.com/assets/images/also-check/weekly_1.webp" className=' border border-black rounded-lg pl-3 pr-3' />
+                          <h1 className='mt-3 font-bold text-lg'>Weekly Horoscope</h1>
+                      </div>
+                      <div className='ml-20'>
+                          <img src="https://astrotalk.com/assets/images/also-check/annual_1.webp" className='border border-black rounded-lg pl-3 pr-3' />
+                          <h1 className='mt-3 font-bold text-lg'> Horoscope 2022</h1>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+      </>
+  )
+}
+
+export default TodayHoroscope

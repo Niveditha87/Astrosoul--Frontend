@@ -1,5 +1,4 @@
 import React from 'react'
-import AstrologersCard from '../components/AstrologersCard'
 import { data } from '../components/mockData';
 import StarRating from '../components/StarRating';
 import CategorySidebar from '../components/CategorySidebar';
@@ -8,7 +7,10 @@ function AstrologersPage() {
   return (
 
 <div class="container md:h-screen md:grid md:grid-cols-6">
-  <section class="sidebar  md:col-span-1">
+      <section class="sidebar  md:col-span-1">
+        <div className='mt-4'>
+          <input type='text' className="border  outline-none ml-3  lg:w-full " placeholder="Search" />
+        </div>
     <CategorySidebar />    
   </section>
   {/* <main class=" md:col-span-5"> */}

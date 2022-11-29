@@ -16,7 +16,7 @@ const OTPpage = () => {
                                     <div>
                                         <h3 className=" text-2xl font-bold font-heading uppercase">
                                             {/* Header */}
-                                            Astrotalk
+                                            AstroSoul
                                         </h3>
                                     </div>
                                     <div>
@@ -27,9 +27,9 @@ const OTPpage = () => {
                                     {/* </div> */}
                                 </div>
                                 <div class="grid grid-cols-3 gap-4 place-items-stretch h-56 ">
-                                    <div className="border border-slate-400 rounded-lg h-[5rem] items-center justify-center">01</div>
-                                    <div className="border border-slate-400 rounded-lg h-[5rem]">02</div>
-                                    <div className="border border-slate-400 rounded-lg h-[5rem]">03</div>
+                                    <div className="border border-slate-400 rounded-lg h-[5rem] items-center justify-center"></div>
+                                    <div className="border border-slate-400 rounded-lg h-[5rem]"></div>
+                                    <div className="border border-slate-400 rounded-lg h-[5rem]"></div>
                                 </div>
                                 {/* <h4 className="text-gray-400">Mobile Number</h4> */}
 
