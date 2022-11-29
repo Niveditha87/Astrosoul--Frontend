@@ -1,0 +1,184 @@
+import React from 'react'
+import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
+import StarRating from '../components/StarRating'
+import { AiOutlineShareAlt } from 'react-icons/ai'
+import { MdOutlineSummarize, MdOutlineLanguage, MdOutlineReviews } from 'react-icons/md'
+import { FaGraduationCap } from 'react-icons/fa';
+import { BiRupee } from 'react-icons/bi'
+import { GiRibbonMedal } from 'react-icons/gi'
+import { HiOutlineLocationMarker } from 'react-icons/hi'
+function AstrologerDetails() {
+    return (
+        <>
+            <div className="">
+                <div className="bg-orange-600 pl-20 flex justify-between">
+                    <div>
+                        <MdChevronLeft size={50} className='text-white' />
+                        <img src=" https://cdn-icons-png.flaticon.com/512/3135/3135715.png" className="h-[150px] border rounded-full p-3 mb-10" />
+                    </div>
+                    <div className='pt-24 mr-[700px] '>
+                        <h1>Astrologer Name</h1>
+                        <p>vedic</p>
+                        <StarRating />
+
+                    </div>
+                    <div className='mr-20 mt-5'>
+                        <AiOutlineShareAlt size={30} className="text-white  " />
+                    </div>
+                </div>
+                <div className=' m-10 flex border rounded-md flex-col'>
+                    <div className='flex  justify-center text-2xl font-inria '>
+                        <MdOutlineSummarize className='mt-3 mr-2  flex  justify-center' />
+                        <h1 className='mt-2'>Profile Summary</h1>
+                    </div>
+
+                    <div className='border ml-44 mr-44 mt-5 flex justify-center rounded-lg p-5'>
+                        <p> simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                    <div className='border-b-2 flex flex-row  ml-44 p-3 mr-44'>
+                        <div className='m-3'>
+                            <FaGraduationCap />
+                        </div>
+
+                        <div className='flex flex-col m-1'>
+                            <div>
+                                Experience
+                            </div>
+                            <div>
+                                12 Year
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div className='border-b-2 flex flex-row  ml-44 p-3 mr-44'>
+                        <div className='m-3'>
+                            <BiRupee />
+                        </div>
+
+                        <div className='flex flex-col m-1'>
+                            <div>
+                                Consultaion Charges
+                            </div>
+                            <div>
+                              50.0/min
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div className='border-b-2 flex flex-row  ml-44 p-3 mr-44'>
+                        <div className='m-3'>
+                            < GiRibbonMedal />
+                        </div>
+
+                        <div className='flex flex-col m-1'>
+                            <div>
+                                Expertise
+                            </div>
+                            <div>
+                                Vedic Assistant
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div className='border-b-2 flex flex-row  ml-44 p-3 mr-44'>
+                        <div className='m-3'>
+                            <MdOutlineLanguage />
+                        </div>
+
+                        <div className='flex flex-col m-1'>
+                            <div>
+                                Languages
+                            </div>
+                            <div>
+                                Hindi,English
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div className='border-b-2 flex flex-row  ml-44 p-3 mr-44'>
+                        <div className='m-3'>
+                            <HiOutlineLocationMarker />
+                        </div>
+
+                        <div className='flex flex-col m-1'>
+                            <div>
+                                Location
+                            </div>
+                            <div>
+                               Surat ,Gujrat-234678
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div className=' flex flex-row  ml-44 p-3 mr-44'>
+                        <div className='m-3'>
+                            <MdOutlineReviews />
+                        </div>
+
+                        <div className='flex flex-col m-1'>
+                            <div>
+                                Reviews
+                            </div>
+                            <div className='border rounded-lg mt-3'>
+                                <div className='flex flex-col'>
+                                    <div className='  p-3 flex flex-row text-gray-500'>
+                                        <h1 className='text-gray-700'>Shweta Patel</h1> ,
+                                        <p className='ml-3 text-gray-500'>20 April 2022</p>
+                                    </div>
+                                    <div className='border-b-2 text-gray-500 pl-5 pr-5 pb-5'>
+                                        <p>survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing</p>
+                                    </div>
+                                </div>
+
+                                <div className='flex flex-col'>
+                                    <div className='  p-3 flex flex-row text-gray-500'>
+                                        <h1 className='text-gray-700'>user 1</h1> ,
+                                        <p className='ml-3 text-gray-500'>20 April 2022</p>
+                                    </div>
+                                    <div className='border-b-2 text-gray-500 pl-5 pr-5 pb-5'>
+                                        <p>survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing</p>
+                                    </div>
+                                </div>
+
+                                <div className='flex flex-col'>
+                                    <div className='  p-3 flex flex-row text-gray-500'>
+                                        <h1 className='text-gray-700'>user 2</h1> ,
+                                        <p className='ml-3 text-gray-500'>20 April 2022</p>
+                                    </div>
+                                    <div className='border-b-2 text-gray-500 pl-5 pr-5 pb-5'>
+                                        <p>survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing</p>
+                                    </div>
+                                </div>
+                               
+                                <div className='flex flex-col'>
+                                    <div className='  p-3 flex flex-row text-gray-500'>
+                                        <h1 className='text-gray-700'>user 3</h1> ,
+                                        <p className='ml-3 text-gray-500'>20 April 2022</p>
+                                    </div>
+                                    <div className='border-b-2 text-gray-500 pl-5 pr-5 pb-5'>
+                                        <p>survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing</p>
+                                    </div>
+                                </div>
+                           </div>
+
+                        </div>
+
+                    </div>
+                    
+
+                </div>
+                <div>
+
+                    {/* kmvlfk;l */}
+                </div>
+            </div>
+        </>
+    )
+}
+
+export default AstrologerDetails

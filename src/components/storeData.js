@@ -53,17 +53,6 @@ export const data = [
     name: "Suraj Pooja",
     rate: "$0.65/min",
   },
-  {
-    id: 4,
-    img: "https://images.unsplash.com/photo-1494791368093-85217fbbf8de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8b2NlYW58ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
-    name: "Suraj Pooja",
-    rate: "$0.65/min",
-  },
-  // {
-  //   id: 4,
-  //   img: "https://images.unsplash.com/photo-1494791368093-85217fbbf8de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8b2NlYW58ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
-  //   name: "Suraj Pooja",
-  //   rate: "$0.65/min",
-  // },
   
+
 ];

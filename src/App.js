@@ -8,6 +8,7 @@ import Register from "./pages/RegisterPage";
 import OTP from "./pages/OTPpage";
 import Language  from './components/Language'
 import Sidebar from "./components/Sidebar"
+import AstrologerDetails from './components/AstrologerDetails'
 function App() {
    
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/otp" element={<OTP />} />
         <Route path="/language" element={<Language />} />
         <Route path="/sidebar" element={<Sidebar />} />
+        <Route path="/astrologerDetails" element={<AstrologerDetails />} />
       </Routes>
     </BrowserRouter>
     // <h1 className="text-8xl  font-bold underline ">Hello world!</h1>

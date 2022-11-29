@@ -3,23 +3,31 @@ import { data } from './mockData';
 import StarRating from './StarRating';
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
 
-function Vedic() {
+function Astrologers() {
     const slideLeft = () => {
-        var slider = document.getElementById('slider');
-        slider.scrollLeft = slider.scrollLeft - 500;
+        var slider2 = document.getElementById('slider2');
+        slider2.scrollLeft = slider2.scrollLeft - 500;
     };
 
     const slideRight = () => {
-        var slider = document.getElementById('slider');
-        slider.scrollLeft = slider.scrollLeft + 500;
+        var slider2 = document.getElementById('slider2');
+        slider2.scrollLeft = slider2.scrollLeft + 500;
     };
 
     return (
         <>
+            <div>
+                <div className='flex justify-center p-1 mt-5'>
+                    <h1 className='h-10 ml-3 mt-2  text-xl font-bold flex  text-rose-500  '>
+
+                        Talk to Astrologers
+                    </h1>
+                </div>
+            </div>
             <div className='relative flex items-center'>
-                {/* <MdChevronLeft className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideLeft} size={40} /> */}
+                <MdChevronLeft className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideLeft} size={40} />
                 <div
-                    id='slider'
+                    id='slider2'
                     className='w-full h-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide'
                 >
                     <div className='flex flex-row  h-[350px]  justify-center '>
@@ -29,7 +37,7 @@ function Vedic() {
                                     
                                     <div> 
                                         <img
-                                            className='mt-3 ml-10 w-[170px]  inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300 border rounded-full'
+                                            className='mt-3 ml-3  w-[170px]  inline-block p-5 cursor-pointer hover:scale-105 ease-in-out duration-300 border rounded-full'
                                             src={item.img}
                                             alt='/'
                                         />
@@ -50,10 +58,17 @@ function Vedic() {
                     </div>
                     
                 </div>
-                {/* <MdChevronRight className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideRight} size={40} /> */}
+                <MdChevronRight className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideRight} size={40} />
+            </div>
+            <div className='flex justify-center  p-1 mt-5 '>
+               
+
+                <h1 className='h-10 mt-2  text-xl font-bold text-rose-500 '>
+                    View More
+                </h1>
             </div>
         </>
     );
 }
 
-export default Vedic;
+export default Astrologers;
