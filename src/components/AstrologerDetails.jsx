@@ -4,7 +4,7 @@ import StarRating from '../components/StarRating'
 import { AiOutlineShareAlt } from 'react-icons/ai'
 import { MdOutlineSummarize, MdOutlineLanguage, MdOutlineReviews } from 'react-icons/md'
 import { FaGraduationCap } from 'react-icons/fa';
-import { BiRupee } from 'react-icons/bi'
+import { BiRupee, BiPhoneCall, BiMessageDetail } from 'react-icons/bi'
 import { GiRibbonMedal } from 'react-icons/gi'
 import { HiOutlineLocationMarker } from 'react-icons/hi'
 function AstrologerDetails() {
@@ -16,10 +16,20 @@ function AstrologerDetails() {
                         <MdChevronLeft size={50} className='text-white' />
                         <img src=" https://cdn-icons-png.flaticon.com/512/3135/3135715.png" className="h-[150px] border rounded-full p-3 mb-10" />
                     </div>
-                    <div className='pt-24 mr-[700px] '>
+                    <div className='pt-24 mr-96'>
                         <h1>Astrologer Name</h1>
                         <p>vedic</p>
                         <StarRating />
+                        <div className='flex flex-row '>
+                            <button className='border rounded-md bg-orange-400 m-5 w-[300px] flex justify-center h-11 pt-2'>
+                                <BiPhoneCall size={20} className="mr-2"/>
+                             Start a Chat Now
+                            </button>
+                            <button className='border rounded-md bg-orange-400 m-5 w-[300px] flex justify-center h-11 pt-2'>
+                                <BiMessageDetail size={20} className="mr-2" />
+                             Start a Call Now
+                            </button>
+                        </div>
 
                     </div>
                     <div className='mr-20 mt-5'>
