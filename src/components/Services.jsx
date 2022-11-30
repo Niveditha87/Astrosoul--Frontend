@@ -17,8 +17,8 @@ function Services() {
       <>
         <div className='flex justify-center mt-5'>
           
-                  <h1 className='h-10 ml-3 mt-2  text-2xl font-bold flex  text-rose-500  '>
-                Services
+                  <h1 className='h-10 ml-3 mt-2  text-2xl font-bold flex  text-rose-500  font-inria '>
+                SERVICES
                   </h1>
 
                

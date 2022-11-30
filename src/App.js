@@ -11,6 +11,7 @@ import Sidebar from "./components/Sidebar"
 import AstrologerDetails from './components/AstrologerDetails'
 import AstrologersList from "./pages/AstrologersPage"
 import TodayHoroscope from "./components/TodayHoroscope"
+import BookPanditjiForm from "./components/BookPanditjiForm"
 function App() {
    
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/astrologerDetails" element={<AstrologerDetails />} />
         <Route path="/astrologers" element={<AstrologersList />} />
         <Route path="/todayHoroscope" element={<TodayHoroscope />} />
+        <Route path="/bookPanditji" element={<BookPanditjiForm />} />
       </Routes>
     </BrowserRouter>
     // <h1 className="text-8xl  font-bold underline ">Hello world!</h1>
