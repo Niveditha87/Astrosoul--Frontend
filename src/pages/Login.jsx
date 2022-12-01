@@ -6,51 +6,7 @@ import { HiOutlineMail } from "react-icons/hi"
 
 
 const Login = () => {
-    // const dispatch = useDispatch();
-    // const navigate = useNavigate();
 
-    // const store = useSelector((state) => state?.users);
-    // const { userAuth, loading, serverErr, appErr } = store;
-    // console.log(userAuth);
-
-    // const login = useGoogleLogin({
-    //     onSuccess: (credentialResponse) => console.log(credentialResponse),
-    // });
-    // const gooleAuth = (userData) => {
-    //     dispatch(loginUserAction(userData));
-    // };
-    // //formik
-    // const formik = useFormik({
-    //     initialValues: {
-    //         email: "",
-    //         password: "",
-    //     },
-    //     onSubmit: (values) => {
-    //         //dispath the action
-    //         dispatch(loginUserAction(values));
-
-    //         console.log(values);
-    //     },
-    //     validationSchema: formSchema,
-    // });
-
-    // //redirect
-
-    // // if (userAuth) {
-    // //   navigate("/posts");
-    // // }
-
-
-    // //redirect
-    // useEffect(() => {
-    //     if (userAuth?.isAdmin) {
-    //         //console.log(userAuth);
-    //         navigate("/posts");
-    //     }
-    //     if (userAuth?.isAdmin === false) {
-    //         navigate("/posts");
-    //     }
-    // }, [userAuth, navigate]);
     return (
         <>
             <section className="min-h-screen  py-20 2xl:py-40 bg-gray-200 overflow-hidden">

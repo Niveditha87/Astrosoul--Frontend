@@ -117,19 +117,19 @@ import logo1 from '../../images/logo1.png'
 
 
 let Links = [
-        { name: "Book Mark", link: "/" },
-        { name: "Help & Support", link: "/wishlist" },
-        { name: "What can I Ask?", link: "/register" },
-        { name: "Share With Friend & Family", link: "/" },
-        { name: "Rate Us", link: "/wishlist" },
-        { name: "Privacy Policy", link: "/register" },
+        { name: "Book Mark", link: "" },
+        { name: "Help & Support", link: "" },
+        { name: "What can I Ask?", link: "" },
+        { name: "Share With Friend & Family", link: "" },
+        { name: "Rate Us", link: "" },
+        { name: "Privacy Policy", link: "" },
      
 
     ];
 let Linknew = [
-    { name: "Terms and Conditions", link: "/register" },
-        { name: "Blog", link: "/" },
-        { name: "Login", link: "/wishlist" },
+    { name: "Terms and Conditions", link: "" },
+        { name: "Blog", link: "" },
+        { name: "Login", link: "/login" },
         { name: "Register", link: "/register" },
 
     ]
@@ -161,7 +161,7 @@ const PublicNavbar = () => {
                                 </div>
                                 <div className="flex-shrink-0 flex items-center justify-start ">
                                     {/* Logo */}
-                                    <a href="">
+                                    <a href="/">
                                    <img className="h-14 w-30  " src={logo1} alt={logo1} />
 
                                     </a>

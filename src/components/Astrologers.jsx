@@ -18,9 +18,9 @@ function Astrologers() {
         <>
             <div>
                 <div className='flex justify-center p-1 mt-5'>
-                    <h1 className='h-10 ml-3 mt-2  text-xl font-bold flex  text-rose-500  '>
+                    <h1 className='h-10 ml-3 mt-2  text-2xl font-bold flex  text-orange-600 font-Paprika '>
 
-                        Talk to Astrologers
+                        TALK TO ASTROLOGERS
                     </h1>
                 </div>
             </div>
@@ -33,7 +33,7 @@ function Astrologers() {
                     <div className='flex flex-row  h-[350px]  justify-center '>
                         {data.map((item) => (
                             <>
-                                <div className='flex flex-col  w-[600px] h-[280px] m-10 border rounded-lg'>
+                                <div className='flex flex-col  w-[600px] h-[280px] m-10 border rounded-lg shadow-md shadow-black'>
                                     
                                     <div> 
                                         <img
@@ -43,7 +43,7 @@ function Astrologers() {
                                         />
                                      </div>
                                     <div className='mt-5'> 
-                                        <h1 className='flex justify-center'>{item?.name}</h1>
+                                        <a href='/astrologerDetails' className='flex justify-center font-inria font-semibold'>{item?.name}</a>
                                         <div className='flex justify-center'>
                                             <StarRating />
                                         </div>
@@ -63,9 +63,9 @@ function Astrologers() {
             <div className='flex justify-center  p-1 mt-5 '>
                
 
-                <h1 className='h-10 mt-2  text-xl font-bold text-rose-500 '>
+                <a href='/astrologers' className='h-10 mt-2  text-xl font-bold text-orange-600 '>
                     View More
-                </h1>
+                </a>
             </div>
         </>
     );

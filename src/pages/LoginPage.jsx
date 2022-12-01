@@ -41,7 +41,7 @@ const LoginPage = () => {
                                 </div>
                                 {/* <div className="flex flex-col item-center justify-center"> */}
                                 {/* <div> */}
-                                <Link to="/otp">
+                                <Link to="/">
                                     <button
                                         type="submit"
                                         className="py-4 w-full bg-[#ff0000] hover:bg-[#ff4d00] text-white font-bold rounded-lg transition duration-200"

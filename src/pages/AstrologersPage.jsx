@@ -28,7 +28,7 @@ function AstrologersPage() {
                   />
                 </div>
                 <div className='mt-5'>
-                  <h1 className='flex justify-center'>{item?.name}</h1>
+                  <a href='/astrologerDetails' className='flex justify-center'>{item?.name}</a>
                   <div className='flex justify-center'>
                     <StarRating />
                   </div>

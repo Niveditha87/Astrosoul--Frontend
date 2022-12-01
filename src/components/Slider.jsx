@@ -1,5 +1,6 @@
 import { useState } from "react";
 import pic from '../images/new.png'
+import { Link } from 'react-router-dom';
 
 const slideStyles = {
     width: "100%",
@@ -96,9 +97,11 @@ const Slider = ({ slides }) => {
                                 <div className='mb-16'>
                                   
                                     <h1 className='text-3xl font-bold mt-10 '>Pandit Online</h1>
-                                    {/* <div className=' bg-orange-600 mt-5 border rounded-md'> */}
+                                {/* <div className=' bg-orange-600 mt-5 border rounded-md'> */}
+                                <Link to='/bookPanditji'>
                                     <button className=' bg-orange-600 flex mx-auto p-2 font-bold text-white w-200'>Book Now</button>
                                     {/* </div> */}
+                                </Link>
 
                                 </div>
 

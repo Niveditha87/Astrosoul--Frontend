@@ -379,7 +379,7 @@ function TodayHoroscope() {
                                       <h1 className='font-semibold'>Pises Today's Horoscope</h1>
                                   </div>
                                   <div>
-                                      <p className='line-clamp-4'>Personal: A certain somebody can’t ignore your obvious charm. Continue to be yourself and a potential relationship could blossom.
+                                      <p className='line-clamp-4 break-all'>Personal: A certain somebody can’t ignore your obvious charm. Continue to be yourself and a potential relationship could blossom.
 
                                           Travel: New experiences bring about new attitudes views. Always make sure to keep your mind open, no matter what the destination.
 

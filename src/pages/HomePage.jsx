@@ -36,7 +36,7 @@ function HomePage() {
           <button className=' bg-orange-600 flex mx-auto p-3 font-bold text-white border rounded-xl'>Book Now</button>
         </div>
       </div> */}
-      <div>
+      <div className='container '>
         <Services/>
         <Astrologers />
         <Store />

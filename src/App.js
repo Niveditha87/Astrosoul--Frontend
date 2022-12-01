@@ -12,6 +12,9 @@ import AstrologerDetails from './components/AstrologerDetails'
 import AstrologersList from "./pages/AstrologersPage"
 import TodayHoroscope from "./components/TodayHoroscope"
 import BookPanditjiForm from "./components/BookPanditjiForm"
+import SelectPooja from './components/SelectPooja';
+import KundliMatching from './components/KundliMatching'
+import FreeKundli from './components/FreeKundli';
 function App() {
    
   return (
@@ -28,6 +31,9 @@ function App() {
         <Route path="/astrologers" element={<AstrologersList />} />
         <Route path="/todayHoroscope" element={<TodayHoroscope />} />
         <Route path="/bookPanditji" element={<BookPanditjiForm />} />
+        <Route path="/selectPooja" element={<SelectPooja />} />
+        <Route path="/kundliMatching" element={<KundliMatching />} />
+        <Route path="/freeKundli" element={<FreeKundli />} />
       </Routes>
     </BrowserRouter>
     // <h1 className="text-8xl  font-bold underline ">Hello world!</h1>

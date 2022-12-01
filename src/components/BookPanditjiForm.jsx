@@ -10,7 +10,7 @@ function BookPanditjiForm() {
         <div>
             <div className="text-center flex items-center gap-96 p-3 bg-red-600 ">
                 <IoIosArrowBack className="text-center ml-7 " size={25} color={"white"} />
-                <div className="text-center  ml-60">Book Panditji</div>
+                <div className="text-center  ml-60 text-white font-bold text-2xl">Book Panditji</div>
             </div>
             <div className="relative flex flex-col justify-center min-h-screen overflow-hidden ">
                 <div className="w-full p-6 m-auto bg-white rounded-md lg:max-w-xl">
