@@ -15,15 +15,12 @@ function Services() {
     };
   return (
       <>
-        <div className='container flex justify-center mt-5 pl-10 pr-10'>
-          
-                  <h1 className='h-10 ml-3 mt-2  text-2xl font-bold flex  text-orange-600  font-Paprika '>
-                ASTROLOGY SERVICES
-                  </h1>
-
-               
-          </div>
-          <div className='relative flex items-center mr-40 ml-40 '>
+        <div className=' flex justify-center mt-5 pl-10 pr-10 '>
+            <h1 className='w-full h-10  mt-2  md:text-2xl font-bold flex justify-center  text-orange-600  font-Paprika '>
+                SERVICES 
+             </h1>     
+        </div>
+        <div className=' flex items-center  '>
               <MdChevronLeft className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideLeft} size={40} />
               <div
                   id='slider'
@@ -32,7 +29,7 @@ function Services() {
                   <div className='flex flex-row  h-[350px]   justify-center  '>
                       {data.map((item) => (
                           <>
-                            <div className='flex flex-col  w-[270px] h-[320px] m-7 border rounded-lg p-5  shadow-lg shadow-orange-600 bg-orange-400'>
+                            <div className='flex flex-col sm:w-[200px]  md:w-[270px] h-[320px] m-7 border rounded-lg p-5  shadow-lg shadow-orange-600 bg-orange-400'>
 
                                   <div className='flex justify-center'>
                                       <img
@@ -68,7 +65,7 @@ function Services() {
 
               </div>
               <MdChevronRight className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideRight} size={40} />
-          </div>
+        </div>
       </>
   )
 }

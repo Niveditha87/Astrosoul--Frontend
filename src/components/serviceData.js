@@ -43,7 +43,7 @@ export const data = [
     img: "https://i.pinimg.com/474x/2c/3e/db/2c3edb0ae6c98241d2f857d7588186aa.jpg",
     name: "Festival",
     rate: "$0.65/min",
-    link: "/todayHoroscope",
+    link: "/festival",
     details:
       "Reading your Today’s horoscope is one of the best ways to predict your future. The foretelling of the future through the Daily horoscope is an ancient practice and finds relevance even today. The horoscope prediction is about predicting the individual's future based on various astrological aspects such as the position of the planets, Nakshatras, Tithi, and much more. However, it’s predominantly the movement of planets from one house of the Kundli to another that influences the life of the native and thus his Daily horoscope. As planets are in motion, their position in the chart of the native on a daily basis virtually decides the course of his life and fortune.",
   },
@@ -61,7 +61,7 @@ export const data = [
     img: "https://www.onegodmed.com/front-assets/images/punchang-detail.png",
     name: "Today's Panchang",
     rate: "$0.65/min",
-    link: "/todayHoroscope",
+    link: "/todayPanchang",
     details:
       "Reading your Today’s horoscope is one of the best ways to predict your future. The foretelling of the future through the Daily horoscope is an ancient practice and finds relevance even today. The horoscope prediction is about predicting the individual's future based on various astrological aspects such as the position of the planets, Nakshatras, Tithi, and much more. However, it’s predominantly the movement of planets from one house of the Kundli to another that influences the life of the native and thus his Daily horoscope. As planets are in motion, their position in the chart of the native on a daily basis virtually decides the course of his life and fortune.",
   },

@@ -18,9 +18,9 @@ function Store() {
                               <img  src={data?.img} alt="" className="h-64 w-64 ml-auto mr-auto p-5" />
                           </figure>
                       
-                                  <h5 className="text-orange-800 text-xl font-bold leading-none text-center mb-3">
+                                  <a href={data?.link} className="text-orange-800 text-xl font-bold leading-none flex justify-center mb-3">
                                       {data?.name}
-                                  </h5>
+                                  </a>
 
                         </div>
                   </div>))}

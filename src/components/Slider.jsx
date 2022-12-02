@@ -2,10 +2,11 @@ import { useState } from "react";
 import pic from '../images/new.png'
 import { Link } from 'react-router-dom';
 
+
 const slideStyles = {
     width: "100%",
     height: "100%",
-    borderRadius: "10px",
+    borderRadius: "20px",
     backgroundSize: "cover",
     backgroundPosition: "center",
 };
@@ -70,16 +71,16 @@ const Slider = ({ slides }) => {
     };
 
     return (
-        <div style={sliderStyles} className=" container-fluid ">
-                <div className="  w-[100%] mx-auto ">
+        <div style={sliderStyles} className=" container-fluid   pt-10">
+                <div className="  w-[100%] mx-auto  ">
                 
                     <div onClick={goToPrevious} style={leftArrowStyles}>
                         ❰
                     </div>
-                    <div className="bg-orange-300 container-fluid">
+                    <div className="">
                         <div style={slideStylesWidthBackground} className="">
-                            <div className="text-black flex w-full flex-row md:flex-row md:justify-between ">
-                                <div className='ml-10 mt-10 font-extrabold'>
+                            <div className="text-white flex w-full flex-row md:flex-row md:justify-between ">
+                                <div className='ml-10  font-extrabold'>
                                     <div>
                                         <a href="" >e-Pooja</a>
                                     </div>
@@ -90,10 +91,10 @@ const Slider = ({ slides }) => {
                                         <a href="" >Sanskar Vidhi</a>
                                     </div>
                                 </div>
-                            <img
+                            {/* <img
                                 className=' h-48 mb-8 mt-14 mr-96'
                                 src={pic}
-                            />
+                            /> */}
                                 <div className='mb-16'>
                                   
                                     <h1 className='text-3xl font-bold mt-10 '>Pandit Online</h1>
