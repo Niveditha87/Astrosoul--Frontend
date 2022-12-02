@@ -16,6 +16,7 @@ import SelectPooja from './components/SelectPooja';
 import KundliMatching from './components/KundliMatching'
 import FreeKundli from './components/FreeKundli';
 import TodayPanchang from './components/TodayPanchang';
+import Festival from './components/Festival'
 function App() {
    
   return (
@@ -36,6 +37,7 @@ function App() {
         <Route path="/kundliMatching" element={<KundliMatching />} />
         <Route path="/freeKundli" element={<FreeKundli />} />
         <Route path="/todayPanchang" element={<TodayPanchang />} />
+        <Route path="/festival" element={<Festival />} />
       </Routes>
     </BrowserRouter>
     // <h1 className="text-8xl  font-bold underline ">Hello world!</h1>
