@@ -1,7 +1,6 @@
 import React from 'react'
 import { data } from './serviceData';
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
-import * as DOMPurify from "dompurify";
 
 function Services() {
     const slideLeft = () => {
