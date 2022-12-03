@@ -71,13 +71,13 @@ const Slider = ({ slides }) => {
     };
 
     return (
-        <div style={sliderStyles} className=" container-fluid   pt-10">
+        <div style={sliderStyles} className=" container-fluid   pt-10 md:w-[40rem] lg:w-[56rem] md:ml-14 lg:ml-0 ">
                 <div className="  w-[100%] mx-auto  ">
                 
                     <div onClick={goToPrevious} style={leftArrowStyles}>
                         ❰
                     </div>
-                    <div className="">
+                    {/* <div className=""> */}
                         <div style={slideStylesWidthBackground} className="">
                             <div className="text-white flex w-full flex-row md:flex-row md:justify-between ">
                                 <div className='ml-10  font-extrabold'>
@@ -91,18 +91,18 @@ const Slider = ({ slides }) => {
                                         <a href="" >Sanskar Vidhi</a>
                                     </div>
                                 </div>
-                            {/* <img
+                                       {/* <img
                                 className=' h-48 mb-8 mt-14 mr-96'
                                 src={pic}
-                            /> */}
+                                       /> */}
                                 <div className='mb-16'>
                                   
                                     <h1 className='text-3xl font-bold mt-10 '>Pandit Online</h1>
-                                {/* <div className=' bg-orange-600 mt-5 border rounded-md'> */}
-                                <Link to='/bookPanditji'>
+                                  {/* <div className=' bg-orange-600 mt-5 border rounded-md'> */}
+                                  <Link to='/bookPanditji'>
                                     <button className=' bg-orange-600 flex mx-auto p-2 font-bold text-white w-200'>Book Now</button>
                                     {/* </div> */}
-                                </Link>
+                                  </Link>
 
                                 </div>
 
@@ -121,7 +121,7 @@ const Slider = ({ slides }) => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    {/* </div> */}
                     <div onClick={goToNext} style={rightArrowStyles}>
                         ❱
                     </div>

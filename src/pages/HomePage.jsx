@@ -26,7 +26,7 @@ function HomePage() {
   return (
      <div className=''>
        <div className="sliderBackground">
-        <div style={containerStyles} className=" md:w-[900px]">
+        <div style={containerStyles} className="lg:w-[900px]">
 
           <Slider slides={slides} />
           

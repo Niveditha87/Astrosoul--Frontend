@@ -35,7 +35,7 @@ const PublicNavbar = () => {
         >
             {({ open }) => (
                 <>
-                    <div className=" container px-4 sm:px-8 lg:px-8 h-[100px] ">
+                    <div className=" container px-4  lg:px-8 h-[100px] ">
                         <div className="flex  h-24">
 
                             <div className="-ml-2 mr-2 flex items-center md:hidden ">
@@ -59,8 +59,8 @@ const PublicNavbar = () => {
 
                             </div>
                             {/* grid grid-rows-2 grid-flow-col w-auto ml-[500px] gap-x-1 */}
-                            <div className=" ml-96 mt-5">
-                                <ul className={`gap-0 justify-end sm: hidden md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-orange-700 md:z-auto z-[-1] left-0 md:w-auto md:pl-0 transition-all duration-500 ease-in ${open ? 'top:8rem ' : 'top-[-490px]'}`}>
+                            <div className="md:w-[33rem] lg:w-[55rem] md:ml-5 lg:ml-96 mt-5 ">
+                                <ul className={` md:w-[33rem] lg:w-[55rem]  gap-0  justify-end  lg:text-md sm: hidden md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-orange-700 md:z-auto z-[-1] left-0 md:pl-0 transition-all duration-500 ease-in ${open ? 'top:8rem ' : 'top-[-490px]'}`}>
                                     {
                                         Links.map((link) => (
                                             <li key={link.name} >
@@ -72,7 +72,9 @@ const PublicNavbar = () => {
                                     }
 
                                 </ul>
-                                <ul className={`mt-3 gap-4 justify-end sm: hidden md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-orange-700 md:z-auto z-[-1] left-0 md:w-auto md:pl-0 transition-all duration-500 ease-in ${open ? 'top:8rem ' : 'top-[-490px]'}`}>
+                                {/* <ul className={`mt-3 gap-4 justify-end sm: hidden md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-orange-700 md:z-auto z-[-1] left-0 md:w-auto md:pl-0 transition-all duration-500 ease-in ${open ? 'top:8rem ' : 'top-[-490px]'}`}> */}
+
+                                <ul className={` md:w-[33rem] lg:w-[55rem] gap-0 md:mt-0 lg:mt-3 justify-end  lg:text-md sm: hidden md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-orange-700 md:z-auto z-[-1] left-0  md:pl-0 transition-all duration-500 ease-in ${open ? 'top:8rem ' : 'top-[-490px]'}`}>
                                     {
                                         Linknew.map((link) => (
                                             <li key={link.name} >
