@@ -12,7 +12,7 @@ function Store() {
                 </div>
                 {data && data.map(data => (
                     <div key={data._id} className="flex items-center justify-center  sm:w-full md:w-1/3 lg:w-1/4  mb-5 lg:pl-2 lg:pr-2 mt-5 ">
-                        <div className="bg-white rounded-lg m-h-64  transform hover:translate-y-2 hover:shadow-xl transition duration-300 w-[250px] md:w-full shadow-sm shadow-gray-500 hover:bg-orange-100">
+                        <div className="bg-white rounded-lg m-h-64  transform hover:translate-y-2 hover:shadow-xl transition duration-300 w-[300px] md:w-full shadow-sm shadow-gray-500 hover:bg-orange-100">
                             <figure className="mb-2">
                                 <img src={data?.img} alt="" className="h-64 w-64 ml-auto mr-auto p-5" />
                             </figure>
