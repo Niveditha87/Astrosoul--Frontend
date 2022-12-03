@@ -19,19 +19,15 @@ function HomePage() {
     { url: "https://www.templepurohit.com/wp-content/uploads/2016/12/What-is-Hindu-Astrology-or-Jyotisham.jpg", title: "italy" },
   ];
   const containerStyles = {
-    // width: "900px",
     height: "300px",
     margin: "0 auto",
-
   };
 
   return (
      <div className=''>
        <div className="sliderBackground">
-     
-
         <div style={containerStyles} className=" md:w-[900px]">
-          {/* <img src={background} /> */}
+
           <Slider slides={slides} />
           
           <div className='pl-3 pr-3 mt-10 md:mt-14 flex flex-row gap-10 justify-center '>
@@ -49,20 +45,13 @@ function HomePage() {
             </div>
           </div>
         </div>
-
       </div>
    
-      {/* <div className='banner w-full bg-orange-200'>
-        <div className=' p-40 '>
-          <button className=' bg-orange-600 flex mx-auto p-3 font-bold text-white border rounded-xl'>Book Now</button>
-        </div>
-      </div> */}
       <div className='container '>
         <Services/>
         <Astrologers />
         <Store />
         <Puja/>
-
       </div>
 
 

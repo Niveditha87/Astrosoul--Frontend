@@ -18,7 +18,7 @@ function Astrologers() {
         <>
             <div>
                 <div className='flex justify-center p-1 mt-5'>
-                    <h1 className='h-10 ml-3 mt-2  text-2xl font-bold flex  text-orange-600 font-Paprika '>
+                    <h1 className='h-10 ml-3 mt-2  text-2xl font-bold flex  text-orange-600 font-Paprika  text-center'>
 
                         TALK TO ASTROLOGERS
                     </h1>
