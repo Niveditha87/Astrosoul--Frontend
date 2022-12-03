@@ -19,7 +19,7 @@ function Services() {
                 SERVICES 
              </h1>     
         </div>
-        <div className=' flex items-center  '>
+        <div className=' flex items-center md:ml-40 md:mr-40  '>
               <MdChevronLeft className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideLeft} size={40} />
               <div
                   id='slider'
@@ -49,9 +49,11 @@ function Services() {
                                        
                                      
                                   </div>
-                                  <div className='line-clamp-4  h-auto mt-4 '>
+                                  <div className=' h-[100px] mt-4 '>
                                  
-                                      <a href={item?.link} className=" line-clamp-4">{ item.details}</a>
+                                      {/* <a href={item?.link} className=" line-clamp-4">{ item.details}</a> */}
+                                      <p class="mt-3 text-gray-700 line-clamp-4 ">There is something about skateboarding at sunset. Just like surfing, things seem to just get better when the sun's coming down.</p>
+
                                   </div>
 
                               

@@ -34,18 +34,18 @@ function HomePage() {
           {/* <img src={background} /> */}
           <Slider slides={slides} />
           
-          <div className=' mt-14 flex flex-row gap-10 justify-center'>
-            <div className=' rounded-lg bg-orange-400 w-[10rem] h-[5rem] '>
+          <div className='pl-3 pr-3 mt-10 flex flex-row gap-10 justify-center '>
+            <div className=' h-[6rem] text-sm md:text-lg rounded-lg bg-orange-400 w-[10rem] md:h-[5rem]'>
               <img src={call} className="h-10 flex mx-auto mt-2"/>
-              <a href="" className='flex justify-center font-semibold font-Paprika text-white'>Call  Astrologers</a>
+              <a href="" className='flex justify-center font-semibold font-Paprika text-white text-center mt-2'>Call  Astrologers</a>
             </div>
-            <div className=' rounded-lg bg-orange-400 w-[10rem] h-[5rem] '>
+            <div className='h-[6rem] text-sm md:text-lg rounded-lg bg-orange-400 w-[10rem] md:h-[5rem] '>
               <img src={chat}  className="h-10 flex mx-auto mt-2 " />
-              <a href="" className='flex justify-center font-semibold font-Paprika text-white'>Chat With  Astrologers</a>
+              <a href="" className='flex justify-center font-semibold font-Paprika text-white text-center mt-2'>Chat With  Astrologers</a>
             </div>
-            <div className=' rounded-lg bg-orange-400 w-[10rem] h-[5rem] '>
+            <div className=' h-[6rem] text-sm md:text-lg rounded-lg bg-orange-400 w-[10rem] md:h-[5rem] '>
               <img src={live} className="h-10 flex mx-auto mt-2" />
-              <a href="" className='flex justify-center font-semibold font-Paprika text-white'>Live  Astrologers</a>
+              <a href="" className='flex justify-center font-semibold font-Paprika text-white text-center mt-2'>Live  Astrologers</a>
             </div>
           </div>
         </div>
