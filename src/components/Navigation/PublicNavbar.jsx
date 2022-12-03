@@ -4,8 +4,6 @@ import Sidebar from '../Sidebar';
 import {
     MenuIcon,
     XIcon,
-    LoginIcon,
-    BookOpenIcon,
 } from "@heroicons/react/outline";
 import logo1 from '../../images/logo1.png'
 let Links = [
@@ -19,12 +17,13 @@ let Links = [
 let Linknew = [
     { name: "Terms and Conditions", link: "" },
     { name: "Blog", link: "" },
-    { name: "Login", link: "/login" },
-    { name: "Register", link: "/register" },
+    { name: "User Login", link: "/login" },
+    { name: "Astrologer Login", link: "/astrologerLogin" },
+    { name: "Register", link: "/astrologerRegistration" },
 ]
-function classNames(...classes) {
-    return classes.filter(Boolean).join(" ");
-}
+// function classNames(...classes) {
+//     return classes.filter(Boolean).join(" ");
+// }
 
 const PublicNavbar = () => {
     return (

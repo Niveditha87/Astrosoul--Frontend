@@ -18,6 +18,8 @@ import FreeKundli from './components/FreeKundli';
 import TodayPanchang from './components/TodayPanchang';
 import Festival from './components/Festival';
 import Stones from './components/Stone'
+import AstrologerRegistration from './components/AstrologerRegistrationn/AstrologerRegistration';
+import AstrologerLogin from './components/AstrologerLogin';
 function App() {
    
   return (
@@ -40,6 +42,14 @@ function App() {
         <Route path="/todayPanchang" element={<TodayPanchang />} />
         <Route path="/festival" element={<Festival />} />
         <Route path="/stones" element={<Stones />} />
+        <Route
+          path="/astrologerRegistration"
+          element={<AstrologerRegistration />}
+        />
+        <Route
+          path="/astrologerLogin"
+          element={<AstrologerLogin />}
+        />
       </Routes>
     </BrowserRouter>
     // <h1 className="text-8xl  font-bold underline ">Hello world!</h1>
