@@ -34,7 +34,7 @@ const PublicNavbar = () => {
         >
             {({ open }) => (
                 <>
-                    <div className=" container px-4  lg:px-8 h-[100px] ">
+                    <div className=" container px-4  lg:px-8 h-[100px] lg:h-[100px] md:h-[120px] ">
                         <div className="flex  h-24">
 
                             <div className="-ml-2 mr-2 flex items-center md:hidden ">
