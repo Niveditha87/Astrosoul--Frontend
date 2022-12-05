@@ -7,14 +7,16 @@ import astrotalk2 from "../images/astrotalk2.jpg";
 import kundali from "../images/kundali.png";
 import { MdCall } from "react-icons/md";
 import { BsChat } from "react-icons/bs";
+import { BsTelephoneFill } from "react-icons/bs";
+import { TbMessageCircle2 } from "react-icons/tb";
 
 function TodayPanchang() {
     return (
         <>
-            <div className="container mx-auto bg-orange-500 h-[300px] ">
-                <div className="flex justify-between ml-24">
-                    <div className="ml-10">
-                        <div className="text-5xl font-semibold mt-16">
+            <div className=' bg-orange-500'>
+                <div className='flex justify-between  w-[20rem] md:w-[100%]'>
+                    <div className='md:ml-20'>
+                        <div className='text-3xl md:text-5xl font-semibold mt-16 border-b-4'>
                             <p>
                                 Today's <span className=" border-b-4">Panchang</span>
                             </p>
@@ -38,8 +40,8 @@ function TodayPanchang() {
                     Today's Horoscope
                 </div>
             </div>
-            <div className="container ml-9 mr-12">
-                <div className="m-16">
+            <div className="ml-5 mr-5 md:ml-9 md:mr-12">
+                <div className="md:m-16">
                     <div className="flex justify-center text-3xl font-semibold ">
                         TODAY'S PANCHANG
                     </div>
@@ -78,9 +80,9 @@ function TodayPanchang() {
                 </div>
 
                 <div className="bg-gray-300 flex  m-0 items-center h-40  w-full">
-                    <form className="flex gap-9 w-full  ">
+                    <form className="flex md:gap-9 w-full  ">
                         <select
-                            class="block appearance-none ml-40 w-3/4 bg-white-200 border border-gray-500 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                            class="block appearance-none md:ml-40 md:w-3/4 bg-white-200 border border-gray-500 text-gray-700 py-3 px-4 md:pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                             placeholder="Enter a city"
                             id="grid-state"
                         >
@@ -93,15 +95,15 @@ function TodayPanchang() {
                         </button>
                     </form>
                 </div>
-                <div className="m-4 w-full">
+                <div className="md:m-4 w-full">
                     <div className="flex justify-center text-3xl font-semibold p-3 mt-10 ">
                         TODAY'S PANCHANG
                     </div>
                 </div>
-                <div className="flex  ml-20 mr-20  p-6 ">
+                <div className="flex flex-col md:flex-row md:ml-20 md:mr-20  md:p-6 ">
                     <div className="">
                         <div className="flex  gap-x-12">
-                            <div className="h-20 w-2/3 bg-red-200 border border-yellow-600 rounded-md">
+                            <div className="h-20 md:w-2/3 bg-red-200 border border-yellow-600 rounded-md">
                                 <div className="flex justify-center items-center mt-4">
                                     <div>
                                         <BiSun className="bg-yellow-400" />
@@ -109,7 +111,7 @@ function TodayPanchang() {
                                     <div>sunrise</div>
                                 </div>
                             </div>
-                            <div className="h-20 w-2/3 bg-blue-200 border border-blue-600 rounded-md">
+                            <div className="h-20 md:w-2/3 bg-blue-200 border border-blue-600 rounded-md">
                                 <div className="flex justify-center items-center mt-4">
                                     <div>
                                         <HiMoon size={20} />
@@ -118,8 +120,8 @@ function TodayPanchang() {
                                 </div>
                             </div>
                         </div>
-                        <div className=" bg-blend-darken  shadow-gray-900 shadow-md ml-4 mt-12  border-grey-100 w-[600px] h-[300x] block text-center items-center justify-center   rounded-md">
-                            <div className=" grid grid-rows-9 grid-cols-2 gap-0 text-center  w-[550px] h-[500px] border-gray-300     ">
+                        <div className=" bg-blend-darken  shadow-gray-900 shadow-md ml-4 mt-12  border-grey-100 md:w-[600px] h-[300x] block text-center items-center justify-center   rounded-md">
+                            <div className=" grid grid-rows-9 grid-cols-2 gap-0 text-center  md:w-[550px] h-[500px] border-gray-300     ">
                                 <div className="border border-slate-300 p-1 mt-6 ml-12">
                                     Tithi
                                 </div>
@@ -161,72 +163,72 @@ function TodayPanchang() {
                     </div>
                 </div>
 
-                <div className="bg-blend-darken  shadow-gray-900 shadow-md ml-20 mr-20 mt-12  border-grey-100 w-auto h-[300x] block text-center items-center justify-center   rounded-md">
+                <div className="bg-blend-darken  shadow-gray-900 shadow-md md:ml-20 md:mr-20 mt-12  border-grey-100 md:w-auto h-[300x] block text-center items-center justify-center   rounded-md">
                     <div className="bg-orange-500 p-2 rounded-t-lg  text-lg">
                         Inauspicious Timings (Ashubha Muhurat)
                     </div>
-                    <div className="text-md ml-8">
-                        <div className="p-4 flex">
+                    <div className="md:text-md md:ml-8">
+                        <div className="md:p-4 flex">
                             <div>Kantaka / Mrityu</div>
-                            <div className="ml-80">From 01-12-22 02:44:38 AM</div>
-                            <div className="ml-6">To 01-12-22 04:03:04 AM</div>
+                            <div className="md:ml-80">From 01-12-22 02:44:38 AM</div>
+                            <div className="md:ml-6">To 01-12-22 04:03:04 AM</div>
                         </div>
                         <hr />
-                        <div className="p-4 flex">
+                        <div className="md:p-4 flex">
                             <div>Kantaka / Mrityu</div>
-                            <div className="ml-80">From 01-12-22 02:44:38 AM</div>
-                            <div className="ml-6">To 01-12-22 04:03:04 AM</div>
+                            <div className="md:ml-80">From 01-12-22 02:44:38 AM</div>
+                            <div className="md:ml-6">To 01-12-22 04:03:04 AM</div>
                         </div>
                         <hr />
-                        <div className="p-4  flex">
+                        <div className="md:p-4  flex">
                             <div>Kantaka / Mrityu</div>
-                            <div className="ml-80">From 01-12-22 02:44:38 AM</div>
-                            <div className="ml-6">To 01-12-22 04:03:04 AM</div>
+                            <div className="md:ml-80">From 01-12-22 02:44:38 AM</div>
+                            <div className="md:ml-6">To 01-12-22 04:03:04 AM</div>
                         </div>
                         <hr />
-                        <div className="p-4  flex">
+                        <div className="md:p-4  flex">
                             <div>Kantaka / Mrityu</div>
-                            <div className="ml-80">From 01-12-22 02:44:38 AM</div>
-                            <div className="ml-6">To 01-12-22 04:03:04 AM</div>
+                            <div className="md:ml-80">From 01-12-22 02:44:38 AM</div>
+                            <div className="md:ml-6">To 01-12-22 04:03:04 AM</div>
                         </div>
                         <hr />
-                        <div className="p-4  flex ">
+                        <div className="md:p-4  flex ">
                             <div>Kantaka / Mrityu</div>
-                            <div className="ml-80">From 01-12-22 02:44:38 AM</div>
-                            <div className="ml-6">To 01-12-22 04:03:04 AM</div>
+                            <div className="md:ml-80">From 01-12-22 02:44:38 AM</div>
+                            <div className="md:ml-6">To 01-12-22 04:03:04 AM</div>
                         </div>
                         <hr />
-                        <div className="p-4  flex ">
+                        <div className="md:p-4  flex ">
                             <div>Kantaka / Mrityu</div>
-                            <div className="ml-80">From 01-12-22 02:44:38 AM</div>
-                            <div className="ml-6">To 01-12-22 04:03:04 AM</div>
+                            <div className="md:ml-80">From 01-12-22 02:44:38 AM</div>
+                            <div className="md:ml-6">To 01-12-22 04:03:04 AM</div>
                         </div>
                         <hr />
-                        <div className="p-4  flex ">
+                        <div className="md:p-4  flex ">
                             <div>Kantaka / Mrityu</div>
-                            <div className="ml-80">From 01-12-22 02:44:38 AM</div>
-                            <div className="ml-6">To 01-12-22 04:03:04 AM</div>
+                            <div className="md:ml-80">From 01-12-22 02:44:38 AM</div>
+                            <div className="md:ml-6">To 01-12-22 04:03:04 AM</div>
                         </div>
                     </div>
                 </div>
-                <div className=" flex gap-6  text-center justify-center mt-6  ml-20 mr-20 rounded-md">
-                    <div className="w-1/2  block justify-center text-center items-center bg-blend-darken shadow-gray-900 shadow-md   border-grey-100 gap-6 rounded-md">
+                <div className=" flex flex-col md:flex-row gap-6  text-center justify-center mt-6  md:ml-20 md:mr-20 rounded-md">
+                    <div className="md:w-1/2  block justify-center text-center items-center bg-blend-darken shadow-gray-900 shadow-md   border-grey-100 gap-6 rounded-md">
                         <div className="bg-orange-500 p-3 rounded-t-lg  text-xl">
                             Inauspicious Timings (Ashubha Muhurat)
                         </div>
-                        <div className="p-4 mt-8">
+                        <div className="md:p-4 mt-8">
                             <img src={kundali} height={900} width={600} />
                         </div>
                     </div>
-                    <div className="w-1/2 bg-blend-darken  shadow-gray-900 shadow-md ml-2   border-grey-100  block text-center items-center justify-center   rounded-md">
-                        <div className="bg-orange-500 p-3 rounded-t-lg  text-xl">
+                    <div className="md:w-1/2 bg-blend-darken  shadow-gray-900 shadow-md ml-2   border-grey-100  block text-center items-center justify-center   rounded-md">
+                        <div className="bg-orange-500 md:p-3 rounded-t-lg  text-xl">
                             Inauspicious Timings (Ashubha Muhurat)
                         </div>
 
-                        <div className="ml-6 mt-5 ">
-                            <table className="border border-gray-300 w-[500px] h-[300px] mb-6 ">
+                        <div className="md:ml-6 mt-5 ">
+                            <table className="border border-gray-300 md:w-[500px] h-[300px] mb-6 ">
                                 <tr className="border border-gray-3000  ">
-                                    <td className="border border-gray-300 w-[100px]  text-md">
+                                    <td className="border border-gray-300 md:w-[100px]  text-md">
                                         Tara Bala
                                     </td>
                                     <td>
@@ -293,113 +295,125 @@ function TodayPanchang() {
                         </div>
                     </div>
                 </div>
-                <div className=" bg-blend-darken mt-6 shadow-gray-900 shadow-lg  w-auto ml-20 mr-20 border-grey-100  block text-center items-center justify-center h-[700px]  rounded-md">
+                <div className=" bg-blend-darken mt-6 shadow-gray-900 shadow-lg w-[20rem] mr-14 md:w-[100%] border-grey-100  block text-center items-center justify-center md:h-[700px]  rounded-md">
                     <div className="bg-orange-500 p-3 rounded-t-lg  text-lg">
                         Planetary Position at Sunrise
                     </div>
-                    <div className="">
-                        <table className="border border-gray-300 m-6 ml-10 w-[1000px]  text-md ">
+                    <div className="flex justify-center">
+                        <table className="border border-gray-300 md:m-5 md:ml-10 w-[10rem] md:w-[1000px] text-sm md:text-md ml-24 mr-24 ">
                             <tr>
-                                <th className="border border-gray-300 p-3 ">Planets</th>
-                                <th className="border border-gray-300 p-3">Rashi</th>
-                                <th className="border border-gray-300 p-3">Longitude</th>
-                                <th className="border border-gray-300 p-3">Nakshatra </th>
-                                <th className="border border-gray-300 p-3">Pada</th>
+                                <th className="border border-gray-300 md:p-3 ">Planets</th>
+                                <th className="border border-gray-300 md:p-3">Rashi</th>
+                                <th className="border border-gray-300 md:p-3">Longitude</th>
+                                <th className="border border-gray-300 md:p-3">Nakshatra </th>
+                                <th className="border border-gray-300 md:p-3">Pada</th>
                             </tr>
                             <tr>
-                                <td className="border border-gray-300 p-3">Ascendant</td>
-                                <td className="border border-gray-300 p-3">Ascendant</td>
-                                <td className="border border-gray-300 p-3">13∘42′29″</td>
-                                <td className="border border-gray-300 p-3">Anuradh</td>
-                                <td className="border border-gray-300 p-3">4</td>
+                                <td className="border border-gray-300 md:p-3">Ascendant</td>
+                                <td className="border border-gray-300 md:p-3">Ascendant</td>
+                                <td className="border border-gray-300 md:p-3">13∘42′29″</td>
+                                <td className="border border-gray-300 md:p-3">Anuradh</td>
+                                <td className="border border-gray-300 md:p-3">4</td>
                             </tr>
                             <tr>
-                                <td className="border border-gray-300 p-3">Ascendant</td>
-                                <td className="border border-gray-300 p-3">Ascendant</td>
-                                <td className="border border-gray-300 p-3">13∘42′29″</td>
-                                <td className="border border-gray-300 p-3">Anuradh</td>
-                                <td className="border border-gray-300 p-3">4</td>
+                                <td className="border border-gray-300 md:p-3">Ascendant</td>
+                                <td className="border border-gray-300 md:p-3">Ascendant</td>
+                                <td className="border border-gray-300 md:p-3">13∘42′29″</td>
+                                <td className="border border-gray-300 md:p-3">Anuradh</td>
+                                <td className="border border-gray-300 md:p-3">4</td>
                             </tr>
                             <tr>
-                                <td className="border border-gray-300 p-3">Ascendant</td>
-                                <td className="border border-gray-300 p-3">Ascendant</td>
-                                <td className="border border-gray-300 p-3">13∘42′29″</td>
-                                <td className="border border-gray-300 p-3">Anuradh</td>
-                                <td className="border border-gray-300 p-3">4</td>
+                                <td className="border border-gray-300 md:p-3">Ascendant</td>
+                                <td className="border border-gray-300 md:p-3">Ascendant</td>
+                                <td className="border border-gray-300 md:p-3">13∘42′29″</td>
+                                <td className="border border-gray-300 md:p-3">Anuradh</td>
+                                <td className="border border-gray-300 md:p-3">4</td>
                             </tr>
                             <tr>
-                                <td className="border border-gray-300 p-3">Ascendant</td>
-                                <td className="border border-gray-300 p-3">Ascendant</td>
-                                <td className="border border-gray-300 p-3">13∘42′29″</td>
-                                <td className="border border-gray-300 p-3">Anuradh</td>
-                                <td className="border border-gray-300 p-3">4</td>
+                                <td className="border border-gray-300 md:p-3">Ascendant</td>
+                                <td className="border border-gray-300 md:p-3">Ascendant</td>
+                                <td className="border border-gray-300 md:p-3">13∘42′29″</td>
+                                <td className="border border-gray-300 md:p-3">Anuradh</td>
+                                <td className="border border-gray-300 md:p-3">4</td>
                             </tr>
                             <tr>
-                                <td className="border border-gray-300 p-3">Ascendant</td>
-                                <td className="border border-gray-300 p-3">Ascendant</td>
-                                <td className="border border-gray-300 p-3">13∘42′29″</td>
-                                <td className="border border-gray-300 p-3">Anuradh</td>
-                                <td className="border border-gray-300 p-3">4</td>
+                                <td className="border border-gray-300 md:p-3">Ascendant</td>
+                                <td className="border border-gray-300 md:p-3">Ascendant</td>
+                                <td className="border border-gray-300 md:p-3">13∘42′29″</td>
+                                <td className="border border-gray-300 md:p-3">Anuradh</td>
+                                <td className="border border-gray-300 md:p-3">4</td>
                             </tr>
                             <tr>
-                                <td className="border border-gray-300 p-3">Ascendant</td>
-                                <td className="border border-gray-300 p-3">Ascendant</td>
-                                <td className="border border-gray-300 p-3">13∘42′29″</td>
-                                <td className="border border-gray-300 p-3">Anuradh</td>
-                                <td className="border border-gray-300 p-3">4</td>
+                                <td className="border border-gray-300 md:p-3">Ascendant</td>
+                                <td className="border border-gray-300 md:p-3">Ascendant</td>
+                                <td className="border border-gray-300 md:p-3">13∘42′29″</td>
+                                <td className="border border-gray-300 md:p-3">Anuradh</td>
+                                <td className="border border-gray-300 md:p-3">4</td>
                             </tr>
                             <tr>
-                                <td className="border border-gray-300 p-3">Ascendant</td>
-                                <td className="border border-gray-300 p-3">Ascendant</td>
-                                <td className="border border-gray-300 p-3">13∘42′29″</td>
-                                <td className="border border-gray-300 p-3">Anuradh</td>
-                                <td className="border border-gray-300 p-3">4</td>
+                                <td className="border border-gray-300 md:p-3">Ascendant</td>
+                                <td className="border border-gray-300 md:p-3">Ascendant</td>
+                                <td className="border border-gray-300 md:p-3">13∘42′29″</td>
+                                <td className="border border-gray-300 md:p-3">Anuradh</td>
+                                <td className="border border-gray-300 md:p-3">4</td>
                             </tr>
                             <tr>
-                                <td className="border border-gray-300 p-3">Ascendant</td>
-                                <td className="border border-gray-300 p-3">Ascendant</td>
-                                <td className="border border-gray-300 p-3">13∘42′29″</td>
-                                <td className="border border-gray-300 p-3">Anuradh</td>
-                                <td className="border border-gray-300 p-3">4</td>
+                                <td className="border border-gray-300 md:p-3">Ascendant</td>
+                                <td className="border border-gray-300 md:p-3">Ascendant</td>
+                                <td className="border border-gray-300 md:p-3">13∘42′29″</td>
+                                <td className="border border-gray-300 md:p-3">Anuradh</td>
+                                <td className="border border-gray-300 md:p-3">4</td>
                             </tr>
                             <tr>
-                                <td className="border border-gray-300 p-3">Ascendant</td>
-                                <td className="border border-gray-300 p-3">Ascendant</td>
-                                <td className="border border-gray-300 p-3">13∘42′29″</td>
-                                <td className="border border-gray-300 p-3">Anuradh</td>
-                                <td className="border border-gray-300 p-3">4</td>
+                                <td className="border border-gray-300 md:p-3">Ascendant</td>
+                                <td className="border border-gray-300 md:p-3">Ascendant</td>
+                                <td className="border border-gray-300 md:p-3">13∘42′29″</td>
+                                <td className="border border-gray-300 md:p-3">Anuradh</td>
+                                <td className="border border-gray-300 md:p-3">4</td>
                             </tr>
                             <tr>
-                                <td className="border border-gray-300 p-3">Ascendant</td>
-                                <td className="border border-gray-300 p-3">Ascendant</td>
-                                <td className="border border-gray-300 p-3">13∘42′29″</td>
-                                <td className="border border-gray-300 p-3">Anuradh</td>
-                                <td className="border border-gray-300 p-3">4</td>
+                                <td className="border border-gray-300 md:p-3">Ascendant</td>
+                                <td className="border border-gray-300 md:p-3">Ascendant</td>
+                                <td className="border border-gray-300 md:p-3">13∘42′29″</td>
+                                <td className="border border-gray-300 md:p-3">Anuradh</td>
+                                <td className="border border-gray-300 md:p-3">4</td>
                             </tr>
                         </table>
                     </div>
                 </div>
-                <div className="w-auto ml-20 mr-20 mt-12 p-12 text-xl bg-orange-500  block text-center items-center justify-center rounded-md">
-                    <div className=" p-3  text-xl">
-                        Connect with an Astrologer on Call or Chat for more personalised
-                        detailed predictions.
-                    </div>
-                    <div className="flex justify-center items-center gap-4 mt-4 ">
-                        <div className="flex border rounded-full bg-white px-16 py-4  hover:bg-slate-600 hover:text-white">
-                            <div>
-                                <BsChat size={30} color={"orange"} />
-                            </div>
-                            <button className="ml-2">Talk to Astrologer</button>
+                <div className="md:m-20 bg-orange-600  p-5 rounded-lg flex flex-row justify-center">
+                    <div className="flex flex-col items-center gap-3 pt-3 w-[100%]">
+                        <div>
+                            <p className="text-2xl text-center">
+                                Connect with an Astrologer on Call or Chat for more
+                                personalised <br></br>detailed predictions.
+                            </p>
                         </div>
-                        <div className="flex order rounded-full bg-white px-12 py-4 hover:bg-slate-600 hover:text-white">
+                        <div className="flex flex-row md:gap-4">
                             <div>
-                                <MdCall size={30} color={"orange"} />
+                                <button className="bg-white hover:bg-black hover:text-white rounded-full w-[8rem] md:w-[15rem] h-[4rem] mb-3 flex px-4 py-4 gap-2 font-semibold items-center transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300">
+                                    <BsTelephoneFill
+                                        size={25}
+                                        color={"#ff0000"}
+                                        className="mt-1"
+                                    />
+                                    Talk to Astrologer
+                                </button>
                             </div>
-                            <button className="ml-2">Chat with Astrologer</button>
+                            <div>
+                                <button className="bg-white hover:bg-black hover:text-white rounded-full w-[8rem] md:w-[15rem] h-[4rem] mb-3 flex px-4 py-4 gap-2 font-semibold items-center transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300">
+                                    <TbMessageCircle2
+                                        size={25}
+                                        color={"#ff0000"}
+                                        className="mt-1"
+                                    />
+                                    Chat with Astrologer
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div className="mt-6 text-xl ml-20 mr-20">
+                <div className="mt-6 text-xl ml-5 mr-5 md:ml-20 md:mr-20">
                     <div className="">
                         <p className="text-black"> What is Panchang exactly used for?</p>
                     </div>

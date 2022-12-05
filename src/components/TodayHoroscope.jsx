@@ -406,26 +406,26 @@ function TodayHoroscope() {
                   ALSO CHECK
               </div>
                   {/* <div className='w-[20rem] md:w-[100%]  '> */}
-                    <div className=' flex md:pl-20 pr-20 justify-center  w-[19rem] md:w-[100%]  '>
+                    <div className=' flex ml-10 mr-16 md:ml-20 pr-20 justify-center  w-[22rem] md:w-[100%]  '>
                       <div className=''>
-                          <img src="https://astrotalk.com/assets/images/also-check/today_1.webp" className='  w-16 md:w-32 lg:w-40 border border-black rounded-lg pl-3 pr-3' />
-                          <h1 className='mt-3 font-bold text-md md:text-lg'>Today's Horoscope</h1>
+                          <img src="https://astrotalk.com/assets/images/also-check/today_1.webp" className='  w-10 md:w-32 lg:w-40 border border-black rounded-lg pl-3 pr-3' />
+                          <h1 className='mt-3 md:font-bold text-sm md:text-lg'>Today's Horoscope</h1>
                       </div>
                       <div className='md:ml-20'>
-                          <img src="https://astrotalk.com/assets/images/also-check/tomorrow_1.webp" className=' w-10 md:w-32 lg:w-40  border border-black rounded-lg  ml-2' />
-                          <h1 className='mt-3 font-bold text-md md:text-lg'>Tomorrow's Horoscope</h1>
+                          <img src="https://astrotalk.com/assets/images/also-check/tomorrow_1.webp" className=' w-5 md:w-32 lg:w-40  border border-black rounded-lg  ml-2' />
+                          <h1 className='mt-3 md:font-bold text-sm md:text-lg'>Tomorrow's Horoscope</h1>
                       </div>
                       <div className='md:ml-20'>
-                          <img src="https://astrotalk.com/assets/images/also-check/yesterday_1.webp" className=' w-10 md:w-32 lg:w-40  border border-black rounded-lg  ml-2' />
-                          <h1 className='mt-3 font-bold text-md md:text-lg'>Yesterday's Horoscope</h1>
+                          <img src="https://astrotalk.com/assets/images/also-check/yesterday_1.webp" className=' w-5 md:w-32 lg:w-40  border border-black rounded-lg  ml-2' />
+                          <h1 className='mt-3 md:font-bold text-sm md:text-lg'>Yesterday's Horoscope</h1>
                       </div>
                       <div className='md:ml-20'>
-                          <img src="https://astrotalk.com/assets/images/also-check/weekly_1.webp" className=' w-16 md:w-32 lg:w-40  border border-black rounded-lg pl-3 pr-3' />
-                          <h1 className='mt-3 font-bold text-md md:text-lg'>Weekly Horoscope</h1>
+                          <img src="https://astrotalk.com/assets/images/also-check/weekly_1.webp" className=' w-10 md:w-32 lg:w-40  border border-black rounded-lg pl-3 pr-3' />
+                          <h1 className='mt-3 md:font-bold text-sm md:text-lg'>Weekly Horoscope</h1>
                       </div>
                       <div className='md:ml-20'>
-                          <img src="https://astrotalk.com/assets/images/also-check/annual_1.webp" className=' w-16 md:w-32 lg:w-40  border border-black rounded-lg pl-3 pr-3' />
-                          <h1 className='mt-3 font-bold text-md md:text-lg'> Horoscope 2022</h1>
+                          <img src="https://astrotalk.com/assets/images/also-check/annual_1.webp" className=' w-10 md:w-32 lg:w-40  border border-black rounded-lg pl-3 pr-3' />
+                          <h1 className='mt-3 md:font-bold text-sm md:text-lg'> Horoscope 2022</h1>
                       </div>
                   </div>
               {/* </div> */}

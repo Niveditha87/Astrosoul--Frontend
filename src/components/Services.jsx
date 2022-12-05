@@ -18,16 +18,16 @@ function Services() {
                     SERVICES
                 </h1>
             </div>
-            <div className=' flex items-center md:ml-40 md:mr-40  '>
+            <div className=' flex items-center md:pl-40 md:pr-40 w-[100%] '>
                 <MdChevronLeft className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideLeft} size={40} />
                 <div
                     id='slider'
                     className='w-full h-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide'
                 >
-                    <div className='flex flex-row  h-[350px]   justify-center  '>
+                    <div className='flex flex-row  h-[350px] w-[120rem] md:w-[100rem] '>
                         {data.map((item) => (
                             <>
-                                <div className='flex flex-col w-[300px]  md:w-[270px] h-[320px] md:m-7 border rounded-lg p-5  shadow-lg shadow-orange-600 bg-orange-400'>
+                                <div className='flex flex-col w-[140px]  md:w-[270px] h-[320px] md:m-7 border rounded-lg p-5  shadow-lg shadow-orange-600 bg-orange-400'>
 
                                     <div className='flex justify-center'>
                                         <img
@@ -36,7 +36,7 @@ function Services() {
                                             alt='/'
                                         />
                                     </div>
-                                    <div className='mt-5 font-semibold text-xl  '>
+                                    <div className='mt-5 font-semibold text-md md:text-xl  '>
                                         <div>
                                             <a href={item?.link} className='flex justify-center'>{item?.name}</a>
                                         </div>
