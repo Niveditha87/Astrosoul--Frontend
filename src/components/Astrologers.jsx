@@ -2,6 +2,8 @@ import React from 'react';
 import { data } from './mockData';
 import StarRating from './StarRating';
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
+import { BiPhoneCall, BiChat } from 'react-icons/bi';
+
 
 function Astrologers() {
     const slideLeft = () => {
@@ -33,7 +35,7 @@ function Astrologers() {
                     <div className='flex flex-row  h-[350px]  justify-center '>
                         {data.map((item) => (
                             <>
-                                <div className='flex flex-col  w-[600px] h-[280px] m-10 border rounded-lg shadow-md shadow-black'>
+                                <div className='flex flex-col  w-[600px] h-[300px] m-10 border rounded-lg shadow-md shadow-black'>
                                     
                                     <div> 
                                         <img
@@ -41,8 +43,18 @@ function Astrologers() {
                                             src={item.img}
                                             alt='/'
                                         />
-                                     </div>
-                                    <div className='mt-5'> 
+                                    </div>
+                                    <div className='flex flex-row justify-center mt-4 gap-2'>
+                                        <div className='flex justify-center h-7 w-10 bg-orange-600 border rounded-xl'>
+                                            <BiPhoneCall className='mt-1' size={20} color={"white"} />
+                                        </div>
+                                        <div className='flex justify-center h-7 w-10 bg-orange-600 border rounded-xl'>
+                                            <BiChat className='mt-1' size={20} color={"white"} />   
+                                      </div>
+
+                                        
+                                    </div>
+                                    <div className='mt-2'> 
                                         <a href='/astrologerDetails' className='flex justify-center font-inria font-semibold'>{item?.name}</a>
                                         <div className='flex justify-center'>
                                             <StarRating />

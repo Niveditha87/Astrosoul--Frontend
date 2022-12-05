@@ -518,7 +518,7 @@ function TodayHoroscope() {
                                 </div>
                                 {/* <div className='w-[30rem] ml-10 '> */}
                                 <div class="w-full max-w-[45rem] md:ml-5 grid content-center">
-                                    <div className="bg-orange-600 text-center pt-3 font-semibold md:w-[30rem] h-[3rem] mt-4 rounded-lg backdrop-opacity-95 flex justify-center">
+                                    <div className="bg-orange-600 text-center pt-3 font-semibold md:w-[30rem] h-[3rem] mt-4 rounded-lg backdrop-opacity-95 flex justify-center ">
                                         Saved Matches
                                     </div>
                                     <form class="bg-white drop-shadow-xl border rounded-lg px-[5.1rem] h-[32rem] pt-[14rem] pb-8 mb-4 mt-3 ">

@@ -2,6 +2,7 @@ import React from 'react'
 import { data } from '../components/mockData';
 import StarRating from '../components/StarRating';
 import CategorySidebar from '../components/CategorySidebar';
+import { BiPhoneCall, BiChat } from 'react-icons/bi';
 
 function AstrologersPage() {
   return (
@@ -16,10 +17,10 @@ function AstrologersPage() {
   {/* <main class=" md:col-span-5"> */}
 
         <div className=" col-span-5 mt-14  mb-14">
-          <div className="container grid grid-flow-row grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-3
+          <div className=" grid grid-flow-row grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-3
                 ">
             {data && data.map((item) => (
-              <div className='flex flex-col  w-[240px] h-[280px] m-5 border rounded-lg'>
+              <div className='flex flex-col w-[14rem] md:w-[240px] h-[300px] md:m-5 border rounded-lg'>
                 <div>
                   <img
                     className='mt-3 ml-7  w-[170px]  inline-block p-5 cursor-pointer hover:scale-105 ease-in-out duration-300 border rounded-full'
@@ -27,7 +28,17 @@ function AstrologersPage() {
                     alt='/'
                   />
                 </div>
-                <div className='mt-5'>
+                <div className='flex flex-row justify-center mt-4 gap-2'>
+                  <div className='flex justify-center h-7 w-10 bg-orange-600 border rounded-xl'>
+                    <BiPhoneCall className='mt-1' size={20} color={"white"} />
+                  </div>
+                  <div className='flex justify-center h-7 w-10 bg-orange-600 border rounded-xl'>
+                    <BiChat className='mt-1' size={20} color={"white"} />
+                  </div>
+
+
+                </div>
+                <div className='mt-2'>
                   <a href='/astrologerDetails' className='flex justify-center'>{item?.name}</a>
                   <div className='flex justify-center'>
                     <StarRating />
