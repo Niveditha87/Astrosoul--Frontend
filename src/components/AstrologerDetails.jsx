@@ -11,41 +11,41 @@ function AstrologerDetails() {
     return (
         <>
             <div className="">
-                <div className="bg-orange-600 pl-20 flex justify-between">
+                <div className="bg-orange-600 md:pl-20 flex flex-col md:flex-row justify-between">
                     <div>
                         <MdChevronLeft size={50} className='text-white' />
-                        <img src=" https://cdn-icons-png.flaticon.com/512/3135/3135715.png" className="h-[150px] border rounded-full p-3 mb-10" />
+                        <img src=" https://cdn-icons-png.flaticon.com/512/3135/3135715.png" className=" h-[150px] border rounded-full p-3 md:mb-10 ml-20 md:ml-0" />
                     </div>
-                    <div className='pt-24 mr-96'>
-                        <h1>Astrologer Name</h1>
-                        <p>vedic</p>
-                        <StarRating />
-                        <div className='flex flex-row '>
-                            <button className='border rounded-md bg-orange-400 m-5 w-[300px] flex justify-center h-11 pt-2'>
+                    <div className='pt-24 md:mr-96'>
+                        <h1 className='ml-10 md:ml-0 '>Astrologer Name</h1>
+                        <p className='ml-10 md:ml-0 '>vedic</p>
+                        <StarRating className='ml-10 md:ml-0 ' />
+                        <div className='flex flex-col md:flex-row '>
+                            <button className='border rounded-md bg-orange-400 m-5 md:w-[300px] flex justify-center h-11 pt-2'>
                                 <BiPhoneCall size={20} className="mr-2"/>
                              Start a Chat Now
                             </button>
-                            <button className='border rounded-md bg-orange-400 m-5 w-[300px] flex justify-center h-11 pt-2'>
+                            <button className='border rounded-md bg-orange-400 m-5 md:w-[300px] flex justify-center h-11 pt-2'>
                                 <BiMessageDetail size={20} className="mr-2" />
                              Start a Call Now
                             </button>
                         </div>
-
+                       
                     </div>
-                    <div className='mr-20 mt-5'>
+                    <div className='md:mr-20 mt-5 flex justify-center'>
                         <AiOutlineShareAlt size={30} className="text-white  " />
                     </div>
                 </div>
-                <div className=' m-10 flex border rounded-md flex-col'>
+                <div className=' md:m-10 flex border rounded-md flex-col'>
                     <div className='flex  justify-center text-2xl font-inria '>
                         <MdOutlineSummarize className='mt-3 mr-2  flex  justify-center' />
                         <h1 className='mt-2'>Profile Summary</h1>
                     </div>
 
-                    <div className='border ml-44 mr-44 mt-5 flex justify-center rounded-lg p-5'>
+                    <div className='border md:ml-44 md:mr-44 mt-5 flex justify-center rounded-lg p-5'>
                         <p> simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                     </div>
-                    <div className='border-b-2 flex flex-row  ml-44 p-3 mr-44'>
+                    <div className='border-b-2 flex flex-row  md:ml-44 p-3 md:mr-44'>
                         <div className='m-3'>
                             <FaGraduationCap />
                         </div>
@@ -61,7 +61,7 @@ function AstrologerDetails() {
                         </div>
 
                     </div>
-                    <div className='border-b-2 flex flex-row  ml-44 p-3 mr-44'>
+                    <div className='border-b-2 flex flex-row  md:ml-44 p-3 md:mr-44'>
                         <div className='m-3'>
                             <BiRupee />
                         </div>
@@ -77,7 +77,7 @@ function AstrologerDetails() {
                         </div>
 
                     </div>
-                    <div className='border-b-2 flex flex-row  ml-44 p-3 mr-44'>
+                    <div className='border-b-2 flex flex-row  md:ml-44 p-3 md:mr-44'>
                         <div className='m-3'>
                             < GiRibbonMedal />
                         </div>
@@ -93,7 +93,7 @@ function AstrologerDetails() {
                         </div>
 
                     </div>
-                    <div className='border-b-2 flex flex-row  ml-44 p-3 mr-44'>
+                    <div className='border-b-2 flex flex-row  md:ml-44 p-3 md:mr-44'>
                         <div className='m-3'>
                             <MdOutlineLanguage />
                         </div>
@@ -109,7 +109,7 @@ function AstrologerDetails() {
                         </div>
 
                     </div>
-                    <div className='border-b-2 flex flex-row  ml-44 p-3 mr-44'>
+                    <div className='border-b-2 flex flex-row  md:ml-44 p-3 md:mr-44'>
                         <div className='m-3'>
                             <HiOutlineLocationMarker />
                         </div>
@@ -125,7 +125,7 @@ function AstrologerDetails() {
                         </div>
 
                     </div>
-                    <div className=' flex flex-row  ml-44 p-3 mr-44'>
+                    <div className=' flex flex-row  md:ml-44 p-3 mr-44'>
                         <div className='m-3'>
                             <MdOutlineReviews />
                         </div>
