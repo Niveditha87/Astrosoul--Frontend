@@ -66,10 +66,10 @@ function TodayHoroscope() {
                                   <div className='flex flex-col md:flex-row md:w-[44rem]'>
                            
                                     <div class=" w-[20rem] md:w-[22rem] h-[30rem]">
-                                        <div className="bg-orange-600 text-center pt-3 font-semibold md:w-[45rem] h-[3rem] mt-4 rounded-lg backdrop-opacity-95 flex justify-center">
+                                        <div className="bg-orange-600 ml-5 md:ml-0 text-center pt-3 font-semibold md:w-[45rem] h-[3rem] mt-4 rounded-lg backdrop-opacity-95 flex justify-center">
                                             Fill Up Partner's Details
                                         </div>
-                                            <form class="bg-white drop-shadow-xl md:border rounded-lg px-8 pt-6 pb-8 mb-4 mt-4 ml-5 md:ml-0">
+                                            <form class="bg-white drop-shadow-xl md:border rounded-lg px-8 pt-6 pb-8 mb-4 mt-4 ml-8 md:ml-0">
                                                 <div class="mb-4">
                                                     <label
                                                         class="block text-gray-700 text-sm font-bold mb-2"
@@ -509,7 +509,7 @@ function TodayHoroscope() {
                                
                                 <div class="flex mx-auto">
                                     <button
-                                        class="bg-orange-600 hover:bg-orange-500 text-black font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-[20rem] mt-32 ml-5 md:ml-0  md:w-full "
+                                        class="bg-orange-600 hover:bg-orange-500 text-black font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-[20rem] mt-24 ml-5 md:ml-0  md:w-full "
                                         type="button"
                                     >
                                         Generate Horoscope
@@ -518,7 +518,7 @@ function TodayHoroscope() {
                                 </div>
                                 {/* <div className='w-[30rem] ml-10 '> */}
                                 <div class="w-full max-w-[45rem] md:ml-5 grid content-center">
-                                    <div className="bg-orange-600 text-center pt-3 font-semibold md:w-[30rem] h-[3rem] mt-4 rounded-lg backdrop-opacity-95 flex justify-center ">
+                                    <div className="bg-orange-600 text-center pt-3 font-semibold md:w-[30rem] h-[3rem] mt-1  rounded-lg backdrop-opacity-95 flex justify-center ">
                                         Saved Matches
                                     </div>
                                     <form class="bg-white drop-shadow-xl border rounded-lg px-[5.1rem] h-[32rem] pt-[14rem] pb-8 mb-4 mt-3 ">
@@ -548,7 +548,7 @@ function TodayHoroscope() {
 
                     {/* <div className='w-full'> */}
                         {/* <div className="m-20  bg-black"> */}
-                            <div className='bg-orange-300 md:m-20 border border-orange-600 p-5 rounded-lg flex flex-row justify-between'>
+                            <div className='bg-orange-300 md:m-20 border border-orange-600 p-5 rounded-lg flex flex-row justify-between mb-5 md:mb-0'>
                                 <div className='md:ml-32 mt-2'>
                                     <h1 className='flex justify-center text-2xl font-bold'>Will You Get Married in 2023</h1>  
                                     <p className='flex justify-center mt-2 text-xl font-semibold'> Astrologer can tell</p>
