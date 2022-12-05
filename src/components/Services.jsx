@@ -18,7 +18,7 @@ function Services() {
                     SERVICES
                 </h1>
             </div>
-            <div className=' flex items-center md:pl-40 md:pr-40 w-[100%] '>
+            <div className=' flex items-center md:pl-40 md:pr-40 w-[16rem] md:w-[100%] ml-0 '>
                 <MdChevronLeft className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideLeft} size={40} />
                 <div
                     id='slider'
@@ -27,7 +27,7 @@ function Services() {
                     <div className='flex flex-row  h-[350px] w-1/2 md:w-1/3'>
                         {data.map((item) => (
                             <>
-                                <div className='flex flex-col w-[140px]  md:w-[270px] h-[320px] md:m-7 border rounded-lg p-5  shadow-lg shadow-orange-600 bg-orange-400'>
+                                <div className='flex flex-col w-[200px]  md:w-[270px] h-[320px] md:m-7 border rounded-lg p-5  shadow-lg shadow-orange-600 bg-orange-400'>
 
                                     <div className='flex justify-center'>
                                         <img
