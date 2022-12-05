@@ -24,7 +24,7 @@ function Services() {
                     id='slider'
                     className='w-full h-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide'
                 >
-                    <div className='flex flex-row  h-[350px] w-[120rem] md:w-[100rem] '>
+                    <div className='flex flex-row  h-[350px] w-1/2 md:w-1/3'>
                         {data.map((item) => (
                             <>
                                 <div className='flex flex-col w-[140px]  md:w-[270px] h-[320px] md:m-7 border rounded-lg p-5  shadow-lg shadow-orange-600 bg-orange-400'>

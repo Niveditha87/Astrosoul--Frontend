@@ -12,17 +12,17 @@ const FreeKundli = () => {
             <section className="overflow-hidden">
                 <div className=" bg-orange-500 ">
                     <div className='flex justify-between  w-[20rem] md:w-[100%]'>
-                        <div className='md:ml-20'>
-                            <div className='text-3xl md:text-5xl font-semibold mt-16 border-b-4'>
+                        <div className='ml-10 md:ml-20'>
+                            <div className='text-xl md:text-5xl font-semibold mt-10 md:mt-16 border-b-4'>
                                 Free Kundli Online
                             </div>
-                            <div className="text-3xl mt-10">
+                            <div className='text-lg md:text-3xl mt-5 md:mt-10'>
                                 Get instant & accurate, <br></br>Janam Kundli
                             </div>
                         </div>
 
                         <div>
-                            <img src={horoscope} alt="/" className="h-[250px] mr-20 mt-5" />
+                            <img src={horoscope} alt="/" className='h-[150px] md:h-[250px] mr-20 mt-9 md:mt-5' />
                         </div>
                     </div>
                 </div>

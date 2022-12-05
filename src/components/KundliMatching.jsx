@@ -13,21 +13,21 @@ function TodayHoroscope() {
                 {/* <div> */}
                 <div className=' bg-orange-500'>
                     <div className='flex justify-between  w-[20rem] md:w-[100%]'>
-                        <div className='md:ml-20'>
-                            <div className='text-3xl md:text-5xl font-semibold mt-16 border-b-4'>
-                                    Kundli Matching
-                                </div>
-                                <div className='text-3xl mt-10'>
-                                    Find your right one,
-                                    <br />
-                                    through matchmaking
-                                </div>
+                        <div className='ml-10 md:ml-20'>
+                            <div className='text-xl md:text-5xl font-semibold mt-10 md:mt-16 border-b-4'>
+                                Kundli Matching
                             </div>
-                            <div>
-                                <img src={horoscope} alt="/" className='h-[250px] mr-20 mt-5' />
+                            <div className='text-lg md:text-3xl mt-5 md:mt-10'>
+                                Find your right one,
+                                <br />
+                                through matchmaking
                             </div>
                         </div>
+                        <div>
+                            <img src={horoscope} alt="/" className='h-[150px] md:h-[250px] mr-20 mt-14 md:mt-5' />
+                        </div>
                     </div>
+                </div>
                     <div className='bg-gray-200 flex flex-row md:pl-20 '>
                         <div className='mt-4'>
                             <AiOutlineHome size={20} />
@@ -69,7 +69,7 @@ function TodayHoroscope() {
                                         <div className="bg-orange-600 text-center pt-3 font-semibold md:w-[45rem] h-[3rem] mt-4 rounded-lg backdrop-opacity-95 flex justify-center">
                                             Fill Up Partner's Detail
                                         </div>
-                                            <form class="bg-white drop-shadow-xl border rounded-lg px-8 pt-6 pb-8 mb-4 mt-4">
+                                            <form class="bg-white drop-shadow-xl md:border rounded-lg px-8 pt-6 pb-8 mb-4 mt-4">
                                                 <div class="mb-4">
                                                     <label
                                                         class="block text-gray-700 text-sm font-bold mb-2"
@@ -287,7 +287,7 @@ function TodayHoroscope() {
                                  
                                     <div class=" w-[20rem] md:w-[22rem] md:ml-5 h-[30rem]">
                                         
-                                        <form class="bg-white drop-shadow-xl  rounded-lg px-8 pt-6 pb-8 mb-4 mt-20 border">
+                                        <form class="bg-white drop-shadow-xl  rounded-lg px-8 pt-6 pb-8 mb-4 mt-20 md:border">
                                             <div class="mb-4">
                                                 <label
                                                     class="block text-gray-700 text-sm font-bold mb-2"
@@ -509,7 +509,7 @@ function TodayHoroscope() {
                                
                                 <div class="flex mx-auto">
                                     <button
-                                        class="bg-orange-600 hover:bg-orange-500 text-black font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-[20rem] mt-20 md:w-full "
+                                        class="bg-orange-600 hover:bg-orange-500 text-black font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-[20rem] mt-24 md:w-full "
                                         type="button"
                                     >
                                         Generate Horoscope

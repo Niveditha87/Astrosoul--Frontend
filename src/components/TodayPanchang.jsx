@@ -15,20 +15,16 @@ function TodayPanchang() {
         <>
             <div className=' bg-orange-500'>
                 <div className='flex justify-between  w-[20rem] md:w-[100%]'>
-                    <div className='md:ml-20'>
-                        <div className='text-3xl md:text-5xl font-semibold mt-16 border-b-4'>
+                    <div className='ml-10 md:ml-20'>
+                        <div className='text-xl md:text-5xl font-semibold mt-10 md:mt-16 border-b-4'>
                             <p>
                                 Today's <span className=" border-b-4">Panchang</span>
                             </p>
                         </div>
-                        <div className="text-3xl mt-10">Check your today's Panchang</div>
+                        <div className='text-lg md:text-3xl mt-5 md:mt-10'>Check your today's Panchang</div>
                     </div>
                     <div>
-                        <img
-                            src={horoscope}
-                            alt="/"
-                            className="h-[250px] mr-20 mt-5 rounded-full"
-                        />
+                        <img src={horoscope} alt="/" className='h-[150px] md:h-[250px] mr-20 mt-9 md:mt-5' />
                     </div>
                 </div>
             </div>
@@ -295,12 +291,12 @@ function TodayPanchang() {
                         </div>
                     </div>
                 </div>
-                <div className=" bg-blend-darken mt-6 shadow-gray-900 shadow-lg w-[20rem] mr-14 md:w-[100%] border-grey-100  block text-center items-center justify-center md:h-[700px]  rounded-md">
+                <div className=" bg-blend-darken mt-6 shadow-gray-900 shadow-lg w-[19rem] mr-14 md:w-[100%] border-grey-100  block text-center items-center justify-center md:h-[700px]  rounded-md">
                     <div className="bg-orange-500 p-3 rounded-t-lg  text-lg">
                         Planetary Position at Sunrise
                     </div>
                     <div className="flex justify-center">
-                        <table className="border border-gray-300 md:m-5 md:ml-10 w-[10rem] md:w-[1000px] text-sm md:text-md ml-24 mr-24 ">
+                        <table className="border border-gray-300 md:m-5 md:ml-10 w-[1rem] md:w-[1000px] text-sm md:text-md ml-36 mr-44 ">
                             <tr>
                                 <th className="border border-gray-300 md:p-3 ">Planets</th>
                                 <th className="border border-gray-300 md:p-3">Rashi</th>
