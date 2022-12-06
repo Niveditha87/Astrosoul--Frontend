@@ -7,8 +7,8 @@ function EditProfile({ visible, onclose }) {
     if (!visible) return null;
     return (
         <>
-            <div className='fixed top-0 inset-0  bg-opacity-30 backdrop-blur-md flex justify-center items-center p-4 '>
-                <div className='block rounded-lg bg-white md:w-[700px]    md:mt-20 h-[1000px] md:h-[500px]  '>
+            <div className='absolute md:fixed top-0 inset-0  bg-opacity-30 backdrop-blur-md flex justify-center items-center p-4 h-[900px] md:h-[700px] overflow-visible  overflow-y-auto '>
+                <div className='block rounded-lg bg-white md:w-[700px]    md:mt-20    '>
                     <div className='bg-orange-500 p-2 flex justify-evenly items-center mt-52 md:mt-0'>
                         <div className='flex mx-auto text-xl '> <h1>Edit Your Profile</h1></div>
                         <div className='flex '>  <button onClick={onclose} className=" text-xl"><AiOutlineClose /></button></div>
