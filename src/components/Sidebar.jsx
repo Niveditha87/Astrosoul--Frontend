@@ -3,8 +3,9 @@ import React, { useState } from 'react';
 import { HiMenuAlt3 } from 'react-icons/hi';
 import { BsBookmark, BsQuestionOctagon } from "react-icons/bs"
 import { FaHandsHelping, FaRegHandshake } from "react-icons/fa"
-import { AiOutlineStar, AiOutlineLogout } from "react-icons/ai"
+import { AiOutlineStar, AiOutlineLogout, AiOutlineLogin } from "react-icons/ai"
 import { MdOutlinePrivacyTip } from "react-icons/md"
+import { FaSignInAlt } from 'react-icons/fa'
 import { RiFilePaper2Line } from "react-icons/ri"
 import { ImNewspaper } from "react-icons/im"
 import { Link } from "react-router-dom"
@@ -22,7 +23,10 @@ const Sidebar = () => {
         { name: "Privacy Policy", link: "", icon: MdOutlinePrivacyTip },
         { name: "Terms and conditions", link: "", icon: RiFilePaper2Line },
         { name: "Blog", link: "", icon: ImNewspaper },
-        { name: "Logout", link: "", icon: AiOutlineLogout }
+        // { name: "Logout", link: "", icon: AiOutlineLogout }
+        { name: "User Login", link: "", icon: AiOutlineLogin },
+        { name: "Astrologer Login", link: "", icon: AiOutlineLogin },
+        { name: "Register", link: "", icon: FaSignInAlt }
     ]
 
     const [open, setOpen] = useState(true)
