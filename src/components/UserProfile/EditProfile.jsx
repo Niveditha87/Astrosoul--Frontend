@@ -1,6 +1,6 @@
 import React from 'react'
 import { BsCalendarDate } from 'react-icons/bs'
-import { BiTimeFive } from 'react-icons/bi'
+import { AiOutlineClose } from 'react-icons/ai'
 
 
 function EditProfile({ visible, onclose }) {
@@ -8,13 +8,15 @@ function EditProfile({ visible, onclose }) {
     return (
         <>
             <div className='fixed top-0 inset-0 bg-black bg-opacity-30 backdrop-blur-md flex justify-center items-center  p-4'>
-                <div className='block rounded-lg bg-white w-[700px]'>
+                <div className='block rounded-lg bg-white md:w-[700px]'>
                     <div className='bg-orange-500 p-2 flex justify-evenly items-center'>
-                        <h1>Select Languages You Know</h1>
-                        <button onClick={onclose} className="text-2xl">x</button>
+                        <div className='flex mx-auto text-xl'> <h1>Edit Your Profile</h1></div>
+                        <div className='flex '>  <button onClick={onclose} className=" text-xl"><AiOutlineClose /></button></div>
+                      
                     </div>
-                    <div>image</div>
-                    <div className='p-6 mt-3 flex '>
+                 <div className='flex justify-center '><img className='h-20 border rounded-full mt-5' src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png" alt="/"/></div>
+                 <div className=' w-[20rem] md:w-full fle flex-col md:flex-row'>
+                    <div className=' mt-3 flex flex-col md:flex-row md:ml-8'>
                         <div className="p-2">
                             <label
                                 for=""
@@ -24,13 +26,13 @@ function EditProfile({ visible, onclose }) {
                             </label>
                             <div className="flex items-center border rounded-md">
                                 <input
-                                    placeholder='Enter Last name'
+                                    placeholder='Enter First name'
                                     type="text"
-                                    className="block w-[300px] p-2 text-indigo-700 bg-white  focus:border-indigo-400 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-40"
+                                    className="block  w-[300px] p-2 text-indigo-700 bg-white  focus:border-indigo-400 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-40"
                                 ></input>
                             </div>
                         </div>
-                        <div className="p-2">
+                        <div className="p-2 md:ml-2">
                             <label
                                 for=""
                                 className="block text-md font-semibold text-gray-800"
@@ -39,14 +41,14 @@ function EditProfile({ visible, onclose }) {
                             </label>
                             <div className="flex items-center border rounded-md">
                                 <input
-                                    placeholder='Enter first name'
+                                    placeholder='Enter Last name'
                                     type="text"
                                     className="block w-[300px] p-2 text-indigo-700 bg-white  focus:border-indigo-900 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-20"
                                 ></input>
                             </div>
                         </div>
                     </div>
-                    <div className='px-8 flex gap-2'>
+                    <div className='md:px-8 flex flex-col md:flex-row gap-2'>
                         <div className="p-2">
                             <label
                                 for=""
@@ -59,7 +61,7 @@ function EditProfile({ visible, onclose }) {
                                 <input
                                     placeholder='Enter date of birth'
                                     type="date"
-                                    className="block w-[300px] p-2 text-indigo-700 bg-white focus:outline-none  "
+                                        className="block w-[300px] p-2 text-indigo-700 bg-white  focus:border-indigo-900 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-20"
                                 ></input>
                             </div>
                         </div>
@@ -68,19 +70,19 @@ function EditProfile({ visible, onclose }) {
                                 for=""
                                 className="block text-md font-semibold text-gray-800"
                             >
-                                time
+                                Time
                             </label>
                             <div className="flex items-center border rounded-md">
                                 {/* <div><BiTimeFive/></div> */}
                                 <input
                                     placeholder='Time of birth'
                                     type="time"
-                                    className="block w-[300px] p-2 text-indigo-700 bg-white  focus:border-indigo-900 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-20"
+                                        className="block w-[300px] p-2 text-indigo-700 bg-white  focus:border-indigo-900 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-20"
                                 ></input>
                             </div>
                         </div>
                     </div>
-                    <div className='px-8 flex gap-2 mb-8'>
+                    <div className='md:px-8 flex flex-col md:flex-row gap-2 mb-8'>
 
                         <div className="p-2">
                             <label
@@ -93,7 +95,7 @@ function EditProfile({ visible, onclose }) {
                                 <input
                                     placeholder='Place of birth'
                                     type="text"
-                                    className="block w-[300px] p-2 text-indigo-700 bg-white  focus:border-indigo-900 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-20"
+                                        className="block w-[300px] p-2 text-indigo-700 bg-white  focus:border-indigo-900 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-20"
                                 ></input>
                             </div>
                         </div>
@@ -108,9 +110,10 @@ function EditProfile({ visible, onclose }) {
                                 <input
                                     placeholder='current adress'
                                     type="text"
-                                    className="block w-[300px] p-2 text-indigo-700 bg-white  focus:border-indigo-900 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-20"
+                                        className="block w-[300px] p-2 text-indigo-700 bg-white  focus:border-indigo-900 focus:ring-indigo-300 focus:outline-none focus:ring focus:ring-opacity-20"
                                 ></input>
                             </div>
+                        </div>
                         </div>
                     </div>
                 </div>
