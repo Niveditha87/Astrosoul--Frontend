@@ -20,6 +20,7 @@ import Festival from './components/Festival';
 import Stones from './components/Stone'
 import AstrologerRegistration from './components/AstrologerRegistrationn/AstrologerRegistration';
 import AstrologerLogin from './components/AstrologerLogin';
+import UserProfile from './pages/UserProfilePage'
 function App() {
    
   return (
@@ -46,10 +47,8 @@ function App() {
           path="/astrologerRegistration"
           element={<AstrologerRegistration />}
         />
-        <Route
-          path="/astrologerLogin"
-          element={<AstrologerLogin />}
-        />
+        <Route path="/astrologerLogin" element={<AstrologerLogin />} />
+        <Route path="/userProfile" element={<UserProfile />} />
       </Routes>
     </BrowserRouter>
     // <h1 className="text-8xl  font-bold underline ">Hello world!</h1>

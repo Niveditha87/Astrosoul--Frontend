@@ -10,6 +10,7 @@ module.exports = {
       Poppins: "Poppins",
       Paprika: "Paprika",
       inria: "Inria Serif",
+      
     },
     container: {
       center: true,

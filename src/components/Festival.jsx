@@ -1,23 +1,22 @@
 import React from 'react'
-// import horoscopee from 'assets/horoscopee.jpeg'
+import horoscope from '../images/horoscopee.png'
 import { AiOutlineHome } from 'react-icons/ai'
 
 function Festival() {
     return (
         <>
-
-            <div className='container mx-auto bg-orange-600 h-[300px] '>
-                <div className='flex justify-between ml-24'>
-                    <div className='ml-10'>
-                        <div className='text-5xl font-semibold mt-16 border-b-4'>
-                            Today's Horoscope
+            <div className=' bg-orange-500'>
+                <div className='flex justify-between  w-[20rem] md:w-[100%]'>
+                    <div className='ml-10 md:ml-20'>
+                        <div className='text-xl md:text-5xl font-semibold mt-10 md:mt-16 border-b-4'>
+                            Festival Calendar 2023
                         </div>
-                        <div className='text-3xl mt-10'>
-                            Check your today's horoscope
+                        <div className='text-lg md:text-3xl mt-5 md:mt-10'>
+                         Festivals & Holidays
                         </div>
                     </div>
                     <div>
-                        {/* <img src={horoscope} alt="/" className='h-[250px] mr-20 mt-5' /> */}
+                        <img src={horoscope} alt="/" className='h-[150px] md:h-[250px] mr-20 mt-14 md:mt-5' />
                     </div>
                 </div>
             </div>
@@ -26,7 +25,7 @@ function Festival() {
                     <AiOutlineHome size={20} />
                 </div>
                 <div className='ml-2 bg-orange-500 border rounded-lg  m-2 p-1 w-52 flex justify-center'>
-                    Today's Horoscope
+                    Festival 2023
                 </div>
             </div>
             <div className='container m-4 '>
@@ -58,7 +57,7 @@ function Festival() {
 
     
             <h1 className='table_heading'>January Festival 2023</h1>
-            <table className="min-w-full h-0 border">
+            <table className="w-[20rem] md:w-full h-0 border ">
                 <thead className="border-b">
                     <tr>
                         <th scope="col" className="text-sm font-medium text-gray-900 px-6 py-4 border-r">
