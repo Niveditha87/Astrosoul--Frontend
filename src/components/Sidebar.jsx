@@ -24,9 +24,9 @@ const Sidebar = () => {
         { name: "Terms and conditions", link: "", icon: RiFilePaper2Line },
         { name: "Blog", link: "", icon: ImNewspaper },
         // { name: "Logout", link: "", icon: AiOutlineLogout }
-        { name: "User Login", link: "", icon: AiOutlineLogin },
-        { name: "Astrologer Login", link: "", icon: AiOutlineLogin },
-        { name: "Register", link: "", icon: FaSignInAlt }
+        { name: "User Login", link: "/login", icon: AiOutlineLogin },
+        { name: "Astrologer Login", link: "/astrologerLogin", icon: AiOutlineLogin },
+        { name: "Register", link: "/astrologerRegistration", icon: FaSignInAlt }
     ]
 
     const [open, setOpen] = useState(true)
