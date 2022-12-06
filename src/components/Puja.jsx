@@ -29,13 +29,6 @@ function Puja() {
         
 
       </div>
-        <div className='flex justify-center  p-1 mt-5 '>
-
-
-              <a href='/selectPooja' className='h-10 mt-2  text-xl font-bold text-rose-500 '>
-                  View More
-              </a>
-          </div>
       </>
   )
 }

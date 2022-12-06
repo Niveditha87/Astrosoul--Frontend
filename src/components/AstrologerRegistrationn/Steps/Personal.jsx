@@ -9,18 +9,18 @@ const Details = () => {
     };
     return (
         <div className="flex flex-col">
-            <div className="flex flex-row gap-1 justify-evenly">
-                <div class="relative">
+            <div className="flex flex-row gap-1 justify-evenly date">
+                <div className="relative">
                     {/* <div className="w-full mx-2 flex-1"> */}
 
                     <label
-                        class="block text-gray-700 text-sm font-bold mb-2"
+                        className="block text-gray-700 text-sm font-bold mb-2"
                         for="password"
                     >
                         Birth Day<span className="text-red-500">*</span>
                     </label>
                     <select
-                        class="block appearance-none w-[13rem]  border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                        className="block appearance-none w-[13rem]  border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                         id="grid-state"
                     >
                         <option>1</option>
@@ -28,9 +28,9 @@ const Details = () => {
                         <option>3</option>
                     </select>
                     {/* </div> */}
-                    <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 pt-6 text-gray-700">
+                    <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 pt-6 text-gray-700">
                         <svg
-                            class="fill-current h-4 w-4"
+                            className="fill-current h-4 w-4"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 20 20"
                         >
@@ -38,24 +38,24 @@ const Details = () => {
                         </svg>
                     </div>
                 </div>
-                <div class="relative">
+                <div className="relative">
                     <label
-                        class="block text-gray-700 text-sm font-bold mb-2"
+                        className="block text-gray-700 text-sm font-bold mb-2"
                         for="password"
                     >
                         Birth Month<span className="text-red-500">*</span>
                     </label>
                     <select
-                        class="block appearance-none w-[13rem]  border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                        className="block appearance-none w-[13rem]  border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                         id="grid-state"
                     >
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
                     </select>
-                    <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 pt-6 text-gray-700">
+                    <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 pt-6 text-gray-700">
                         <svg
-                            class="fill-current h-4 w-4"
+                            className="fill-current h-4 w-4"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 20 20"
                         >
@@ -63,24 +63,24 @@ const Details = () => {
                         </svg>
                     </div>
                 </div>
-                <div class="relative">
+                <div className="relative">
                     <label
-                        class="block text-gray-700 text-sm font-bold mb-2"
+                        className="block text-gray-700 text-sm font-bold mb-2"
                         for="password"
                     >
                         Birth Year<span className="text-red-500">*</span>
                     </label>
                     <select
-                        class="block appearance-none w-[13rem]  border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                        className="block appearance-none w-[13rem]  border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                         id="grid-state"
                     >
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
                     </select>
-                    <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 pt-6 text-gray-700">
+                    <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 pt-6 text-gray-700">
                         <svg
-                            class="fill-current h-4 w-4"
+                            className="fill-current h-4 w-4"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 20 20"
                         >
@@ -88,23 +88,23 @@ const Details = () => {
                         </svg>
                     </div>
                 </div>
-                <div class="relative">
+                <div className="relative">
                     <label
-                        class="block text-gray-700 text-sm font-bold mb-2"
+                        className="block text-gray-700 text-sm font-bold mb-2"
                         for="password"
                     >
                         Religion<span className="text-red-500">*</span>
                     </label>
                     <select
-                        class="block appearance-none w-[13rem]  border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                        className="block appearance-none w-[13rem]  border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                         id="grid-state"
                     >
                         <option>Hinduism</option>
                         <option>Sikh</option>
                     </select>
-                    <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 pt-6 text-gray-700">
+                    <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 pt-6 text-gray-700">
                         <svg
-                            class="fill-current h-4 w-4"
+                            className="fill-current h-4 w-4"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 20 20"
                         >
@@ -113,7 +113,7 @@ const Details = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex flex-row gap-1 justify-evenly">
+            <div className="flex flex-row gap-1 justify-evenly add">
                 <div className="w-full mx-2 flex-1">
                     <div className="font-bold h-6 mt-3 text-gray-500 text-xs leading-8 uppercase">
                         Formal Education
@@ -145,7 +145,7 @@ const Details = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-full mx-2 flex-1">
+            <div className="w-full mx-2 flex-1 place">
                 <div className="font-bold h-6 mt-3 text-gray-500 text-xs leading-8 uppercase">
                     Place
                 </div>
@@ -160,7 +160,7 @@ const Details = () => {
                     />
                 </div>
             </div>
-            <div className="w-full mx-2 flex-1">
+            <div className="w-full mx-2 flex-1 place">
                 <div className="font-bold h-6 mt-3 text-gray-500 text-xs leading-8 uppercase">
                     Address
                 </div>

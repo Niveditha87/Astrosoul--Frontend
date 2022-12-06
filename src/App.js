@@ -21,6 +21,10 @@ import Stones from './components/Stone'
 import AstrologerRegistration from './components/AstrologerRegistrationn/AstrologerRegistration';
 import AstrologerLogin from './components/AstrologerLogin';
 import UserProfile from './pages/UserProfilePage'
+import Store from './components/Store';
+import Pooja from './components/Puja';
+import Products from './components/Products';
+import Cart from './components/Cart'
 function App() {
    
   return (
@@ -43,6 +47,10 @@ function App() {
         <Route path="/todayPanchang" element={<TodayPanchang />} />
         <Route path="/festival" element={<Festival />} />
         <Route path="/stones" element={<Stones />} />
+        <Route path="/store" element={<Store />} />
+        <Route path="/pooja" element={<Pooja />} />
+        <Route path="/products" element={<Products />} />
+        <Route path="/cart" element={<Cart  />} />
         <Route
           path="/astrologerRegistration"
           element={<AstrologerRegistration />}
@@ -51,7 +59,6 @@ function App() {
         <Route path="/userProfile" element={<UserProfile />} />
       </Routes>
     </BrowserRouter>
-    // <h1 className="text-8xl  font-bold underline ">Hello world!</h1>
   );
 }
 

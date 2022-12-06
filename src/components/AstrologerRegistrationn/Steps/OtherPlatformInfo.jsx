@@ -13,10 +13,10 @@ const OtherPlatformInfo = () => {
     };
     return (
         <>
-            <div className="flex flex-col">
+            <div className="flex flex-col other">
                 <div className="w-full mx-2 flex-1">
 
-                    <div className="font-bold h-6 mt-3 text-gray-500 text-xs leading-8 uppercase">
+                    <div className="font-bold h-6 mt-3 text-gray-500 text-xs leading-8 uppercase prof-font">
                         {" "}
                         Ready To Consult Via
                     </div>
@@ -80,14 +80,14 @@ const OtherPlatformInfo = () => {
 
                     </div>
 
-                    <div className="font-bold h-6 mt-3 text-gray-500 text-xs leading-8 uppercase">
+                    <div className="font-bold h-6 mt-3 text-gray-500 text-xs leading-8 uppercase prof-font">
                         {" "}
                         Available Gadgets
                     </div>
                     <div className="form-check form-check-inline">
 
                         <select
-                            class="block appearance-none w-[13rem]  border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                            className="block appearance-none w-[13rem]  border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500 other-down"
                             id="grid-state"
                         >
                             <option>Desktop</option>
@@ -98,21 +98,21 @@ const OtherPlatformInfo = () => {
                         </select>
                     </div>
                     <div className="w-full mx-2 flex-1">
-                        <div className="font-bold h-6 mt-3 text-gray-500 text-xs leading-8 uppercase">
+                        <div className="font-bold h-6 mt-3 text-gray-500 text-xs leading-8 uppercase prof-font ">
                             Are You already Working On Any Other Online Portal
                         </div>
-                        <div className="flex">
-                            <div className="flex items-center mr-4">
+                        <div className="flex prof-radio">
+                            <div className="flex items-center mr-4 ">
                                 <input
                                     id="inline-radio"
                                     type="radio"
                                     value=""
                                     name="inline-radio-group"
-                                    class="w-4 h-4 text-orange-600 bg-gray-100 border-gray-300 focus:ring-orange-500 dark:focus:ring-orange-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                                    className="w-4 h-4 text-orange-600 bg-gray-100 border-gray-300 focus:ring-orange-500 dark:focus:ring-orange-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                                 />
                                 <label
                                     for="inline-radio"
-                                    class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                                    className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
                                 >
                                     Yes
                                 </label>
@@ -123,22 +123,22 @@ const OtherPlatformInfo = () => {
                                     type="radio"
                                     value=""
                                     name="inline-radio-group"
-                                    class="w-4 h-4 text-orange-600 bg-gray-100 border-gray-300 focus:ring-orange-500 dark:focus:ring-orange-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                                    className="w-4 h-4 text-orange-600 bg-gray-100 border-gray-300 focus:ring-orange-500 dark:focus:ring-orange-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                                 />
                                 <label
                                     for="inline-radio"
-                                    class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                                    className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
                                 >
                                     No
                                 </label>
                             </div>
                         </div>
                     </div>
-                    <div className="font-bold h-6 mt-3 text-gray-500 text-xs leading-8 uppercase">
+                    <div className="font-bold h-6 mt-3 text-gray-500 text-xs leading-8 uppercase prof-font other-down">
                         {" "}
                         Aadhar No
                     </div>
-                    <div className="bg-white my-2 p-1 flex border border-gray-200 rounded">
+                    <div className="bg-white my-2 p-1 flex border border-gray-200 rounded other-down">
                         <input
                             onChange={handleChange}
                             value={userData["password"] || ""}
@@ -160,7 +160,7 @@ const OtherPlatformInfo = () => {
   <div className="flex-1 flex justify-center flex-wrap p-2">
                     <TiTick className='  w-24 h-24 rounded-full bg-orange-500/90 fill-white' />
                 </div>
-   
+    
     <div className="mt-3 text-xl font-semibold uppercase text-gray-500">
       Congratulaions!
     </div>

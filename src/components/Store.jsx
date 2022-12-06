@@ -27,13 +27,7 @@ function Store() {
     
 
         </div>
-                <div className='flex justify-center   p-1 mt-5 '>
-
-
-                <a href='/' className=' h-10 mt-2  text-xl font-bold text-orange-600 mb-3'>
-                    View More
-                </a>
-            </div>
+       
         </>
 
     )

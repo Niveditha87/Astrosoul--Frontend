@@ -38,4 +38,4 @@ const Final = () => {
         </div>)
 }
 
-export default Final
+export default Final;

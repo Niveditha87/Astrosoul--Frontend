@@ -11,18 +11,18 @@ const Otp = () => {
     return (
         <div className="flex flex-col">
             <div className="w-full mx-2 flex-1">
-                <div className="font-bold h-6 mt-3 text-gray-500 text-xs leading-8 uppercase">
+                <div className="font-bold h-6 mt-3 text-gray-500 text-xs leading-8 uppercase otp">
                     {" "}
                     OTP <span className="text-red-500">*</span>
                 </div>
-                <div className="bg-white my-2 p-1 flex border border-gray-200 rounded">
+                <div className="bg-white my-2 p-1 flex border border-gray-200 rounded otp-box">
                     <input
                         onChange={handleChange}
                         value={userData["password"] || ""}
                         name="password"
                         placeholder="Password"
                         type="password"
-                        className="p-1 px-2 appearance-none outline-none w-full text-gray-800"
+                        className="p-1 px-2 appearance-none outline-none w-full text-gray-800 "
                     />
                 </div>
             </div>

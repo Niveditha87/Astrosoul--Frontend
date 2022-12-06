@@ -9,10 +9,10 @@ const Account = () => {
         setUserData({ ...userData, [name]: value });
     };
     return (
-        <div className="flex flex-col">
-            <div className="w-full mx-2 flex-1">
+        <div className="flex flex-col gene">
+            <div className="w-full mx-2 flex-1 gen_info_applay">
                 {/* checkBox */}
-                <div className="font-bold h-6 mt-3 text-gray-500 text-xs leading-8 uppercase">
+                <div className="font-bold h-6 mt-3 text-gray-500 text-xs leading-8 uppercase ">
                     {" "}
                     Applying as <span className="text-red-500">*</span>
                 </div>

@@ -51,7 +51,21 @@ function HomePage() {
         <Services/>
         <Astrologers />
         <Store />
-        <Puja/>
+        <div className='flex justify-center   p-1 mt-5 '>
+
+
+          <a href='/store' className=' h-10 mt-2  text-xl font-bold text-orange-600 mb-3'>
+            View More
+          </a>
+        </div>
+        <Puja />
+        <div className='flex justify-center  p-1 mt-5 '>
+
+
+          <a href='/pooja' className='h-10 mt-2  text-xl font-bold text-rose-500 '>
+            View More
+          </a>
+        </div>
       </div>
 
 
