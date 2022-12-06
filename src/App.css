@@ -36,3 +36,216 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+/*.............login........... */
+
+@media (max-width:600px){
+  .login{
+    position: relative;
+    bottom: 60px;
+    right: 30px;
+    max-width: 450px;
+    margin-right: -200px;
+    margin-left: 20px;
+    font-size: 12px;
+  }
+  .log-head{
+    position: relative;
+    bottom: 70px;
+    right: 75px;
+  }
+  .log-box{
+    position: relative;
+    left: 5px;
+    bottom: 70px;
+    max-width: 65.5%;
+  }
+}
+/* ..........astrologerLogin .......... */
+@media (max-width:650px){
+  .astrolog{
+    position: relative;
+    bottom: 70px;
+    right: 60px;
+    /* max-width: 650px; */
+    margin-right: -50px;
+    margin-left: 40px;
+    font-size: 12px;
+  }
+  .astro-head{
+    position: relative;
+    left: 10px;
+  }
+  .astro-box{
+    position: relative;
+    right: 40px;
+    max-width: 96%;
+  }
+  .log-btn{
+    max-width: 96%;
+    
+  }
+
+}
+
+/* ..........astro register............ */
+
+@media (max-width:600px){
+  .cir-resp{
+    position: relative;
+    right: 75px;
+  }
+  .cir-size{
+    height: 15px;
+    width: 30px;
+  }
+}
+
+
+@media (max-width:550px){
+  .gen_info_applay{
+    position: absolute;
+    top: 250px;
+    left: 10%;
+    height: 100vh;
+  }
+}
+
+@media (max-width:600px){
+  .gene{
+    position: relative;
+    right: 90px;
+    max-width: 600px;
+    margin-right: 0px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width:600px){
+  .otp{
+    position: relative;
+    right: 70px;
+  }
+  .otp-box{
+    position: absolute;
+    width: 75%; 
+    left: 12%;
+  }
+}
+
+@media (max-width:700px){
+  .date{
+    display: grid;
+    position: relative;
+    left: 5px;
+  }
+  .add{
+    display: grid;
+    position: relative;
+    width: 130%;
+    right: 35px;
+  }
+  .place{
+    display: grid;
+    position: relative;
+    width: 130%;
+    right: 35px;
+  }
+}
+
+
+/* ...............Professional........... */
+@media (max-width:450px){
+  .prof{
+    position: relative;
+    right: 90px;
+    max-width: 450px;
+    margin-right: -160px;
+    margin-left: 10px;
+    font-size: 12px;
+  }
+  .prof-box{
+    position: relative;
+    margin-right: 10px;
+    right: 10px;
+    width: 107%;
+  }
+  .prof-font{
+    font-size: 12px;
+  }
+  .prof-exp{
+    display: grid;
+    position: relative;
+    right: 230px;
+    width: 200%;
+  }
+  .prof-year{
+    display: grid;
+    position: relative;
+    right: 230px;
+    width: 200%;
+    padding: 0 -1px;
+  }
+  .prof-radio{
+    position: relative;
+    top: 30px;
+  }
+  .prof-down{
+    position: relative;
+    margin-top: 50px;
+  }
+}
+
+/* teaching/writing */
+@media (max-width:450px){
+  .teach{
+    position: relative;
+    right: 80px;
+    max-width: 450px;
+    margin-right: -160px;
+    margin-left: 0px;
+    font-size: 12px;
+    /* padding-right:0px; */
+    /* padding-left: 30px; */
+  }
+  .teach-down{
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+  }
+}
+/* ...............Banking................ */
+@media (max-width:450px){
+  .bank{
+    position: relative;
+    right: 90px;
+    max-width: 450px;
+    margin-right: -160px;
+    margin-left: 0px;
+    font-size: 12px;
+  }
+  .bank-brake{
+    position: relative;
+    right: 10px;
+    display: grid;
+  }
+}
+
+/* ..........OtherPlatformInfo....... */
+@media (max-width:530px){
+  .other{
+    position: relative;
+    right: 90px;
+    max-width: 450px;
+    margin-right: -160px;
+    margin-left: 0px;
+    font-size: 12px;
+  }
+  .other-down{
+    position: relative;
+    top: 20px;
+  }
+}
