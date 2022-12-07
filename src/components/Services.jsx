@@ -5,20 +5,20 @@ import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
 function Services() {
     const slideLeft = () => {
         var slider = document.getElementById('slider');
-        slider.scrollLeft = slider.scrollLeft - 500;
+        slider.scrollLeft = slider.scrollLeft - 200;
     };
     const slideRight = () => {
         var slider = document.getElementById('slider');
-        slider.scrollLeft = slider.scrollLeft + 500;
+        slider.scrollLeft = slider.scrollLeft + 200;
     };
     return (
         <>
-            <div className=' flex justify-center mt-5 pl-10 pr-10 '>
+            <div className=' flex justify-center mt-5 '>
                 <h1 className='w-full h-10  mt-2  md:text-2xl font-bold flex justify-center  text-orange-600  font-Paprika '>
                     SERVICES
                 </h1>
             </div>
-            <div className=' flex items-center md:pl-40 md:pr-40 w-[16rem] md:w-[100%] ml-0 '>
+            <div className='ml-7 md:ml-0 flex items-center md:pl-40 md:pr-40 w-[16rem] md:w-[100%]  '>
                 <MdChevronLeft className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideLeft} size={40} />
                 <div
                     id='slider'

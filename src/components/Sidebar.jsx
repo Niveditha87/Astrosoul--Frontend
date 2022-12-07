@@ -21,12 +21,12 @@ const Sidebar = () => {
         { name: "Share With Friends & Family", link: "", icon: FaRegHandshake },
         { name: " Rate Us", link: "", icon: AiOutlineStar },
         { name: "Privacy Policy", link: "", icon: MdOutlinePrivacyTip },
-        { name: "Terms and conditions", link: "", icon: RiFilePaper2Line },
         { name: "Blog", link: "", icon: ImNewspaper },
-        // { name: "Logout", link: "", icon: AiOutlineLogout }
         { name: "User Login", link: "/login", icon: AiOutlineLogin },
         { name: "Astrologer Login", link: "/astrologerLogin", icon: AiOutlineLogin },
-        { name: "Register", link: "/astrologerRegistration", icon: FaSignInAlt }
+        { name: "Register", link: "/astrologerRegistration", icon: FaSignInAlt },
+        { name: "Terms and conditions", link: "", icon: RiFilePaper2Line },
+
     ]
 
     const [open, setOpen] = useState(true)

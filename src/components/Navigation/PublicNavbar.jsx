@@ -10,20 +10,16 @@ let Links = [
     { name: "Book Mark", link: "" },
     { name: "Help & Support", link: "" },
     { name: "What can I Ask?", link: "" },
-    { name: "Share With Friend & Family", link: "" },
+    { name: "Share With Friends ", link: "" },
     { name: "Rate Us", link: "" },
     { name: "Privacy Policy", link: "" },
-];
-let Linknew = [
-    { name: "Terms and Conditions", link: "" },
     { name: "Blog", link: "" },
     { name: "User Login", link: "/login" },
     { name: "Astrologer Login", link: "/astrologerLogin" },
     { name: "Register", link: "/astrologerRegistration" },
-]
-// function classNames(...classes) {
-//     return classes.filter(Boolean).join(" ");
-// }
+    { name: "Terms and Conditions", link: "" },
+];
+
 
 const PublicNavbar = () => {
     return (
@@ -57,23 +53,36 @@ const PublicNavbar = () => {
                                 <p className=' text-3xl ml-2 font-inria '>AstroSoul</p>
 
                             </div>
-                            {/* grid grid-rows-2 grid-flow-col w-auto ml-[500px] gap-x-1 */}
-                            <div className="md:w-[33rem] lg:w-[55rem] md:ml-5 lg:ml-96 mt-5 ">
-                                <ul className={` md:w-[33rem] lg:w-[55rem]  gap-0  justify-end  lg:text-md sm: hidden md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-orange-700 md:z-auto z-[-1] left-0 md:pl-0 transition-all duration-500 ease-in ${open ? 'top:8rem ' : 'top-[-490px]'}`}>
-                                    {
-                                        Links.map((link) => (
-                                            <li key={link.name} >
+                            {/* grid grid-rows-2 grid-flow-col w-auto ml-[500px] gap-x-1 
+                                md:w-[33rem] lg:w-[55rem] md:ml-5 lg:ml-96 mt-5
+                            */}
+                            {/* <div className=" md:w-[33rem] lg:w-[55rem] md:ml-5 lg:ml-96 mt-5">
+                                <ul className={`grid md:grid-cols-6 grid-flow-col gap-3  md:w-[33rem] lg:w-[56rem]   justify-end  lg:text-md sm:hidden md:flex absolute md:items-center md:pb-0 pb-12  md:static bg-orange-700 md:z-auto z-[-1] left-0 md:pl-0 transition-all duration-500 ease-in ${open ? 'top:8rem ' : 'top-[-490px]'}`}> */}
+                            {/* <div className="flex mx-auto "> */}
+                            {/* <div className="mx-auto"> */}
+                            {/* "  grid  grid-cols-6 col-span-1   mx-auto min-w-fit  md:ml-5 lg:ml-[25rem] mt-5  " */}
+                            <div className={` grid  grid-cols-6 col-span-1 md:text-[10px] lg:text-[15px] lg:mx-auto md:ml-5 lg:ml-[25rem] md:mt-8 lg:mt-6  bg-orange-700 md:z-auto z-[-1] left-0 md:pl-0 transition-all duration-500 ease-in ${open ? 'top:8rem ' : 'top-[-490px]'}`}>
+                                {
 
-                                                <a href={link.link} className='font-serif text-white hover:text-orange-900 duration-500 mr-8 '>{link.name}</a>
+                                    Links.map((link) => (
+                                        // <div className='w-fit '>
+                                        <div key={link.name} className=" hidden md:block " >
+                                                {/* <div className='grid'> */}
+                                            <a href={link.link} className='font-serif  text-white hover:text-orange-900 duration-500 flex  justify-center'>{link.name}</a>
 
-                                            </li>
-                                        ))
-                                    }
+                                                {/* </div> */}
+{/* 
+                                            </div> */}
+                                        </div>
+                                    ))
 
-                                </ul>
-                                {/* <ul className={`mt-3 gap-4 justify-end sm: hidden md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-orange-700 md:z-auto z-[-1] left-0 md:w-auto md:pl-0 transition-all duration-500 ease-in ${open ? 'top:8rem ' : 'top-[-490px]'}`}> */}
+                                }
 
-                                <ul className={` md:w-[33rem] lg:w-[55rem] gap-0 md:mt-0 lg:mt-3 justify-end  lg:text-md sm: hidden md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-orange-700 md:z-auto z-[-1] left-0  md:pl-0 transition-all duration-500 ease-in ${open ? 'top:8rem ' : 'top-[-490px]'}`}>
+                                </div>
+                            {/* </div> */}
+                            {/* <ul className={`mt-3 gap-4 justify-end sm: hidden md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-orange-700 md:z-auto z-[-1] left-0 md:w-auto md:pl-0 transition-all duration-500 ease-in ${open ? 'top:8rem ' : 'top-[-490px]'}`}> */}
+
+                            {/* <ul className={` md:w-[33rem] lg:w-[55rem] gap-0 md:mt-0 lg:mt-3 justify-end  lg:text-md sm: hidden md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-orange-700 md:z-auto z-[-1] left-0  md:pl-0 transition-all duration-500 ease-in ${open ? 'top:8rem ' : 'top-[-490px]'}`}>
                                     {
                                         Linknew.map((link) => (
                                             <li key={link.name} >
@@ -84,14 +93,34 @@ const PublicNavbar = () => {
                                         ))
                                     }
 
-                                </ul>
-                            </div>
+                                </ul> */}
+                            {/* </div> */}
                         </div>
                     </div>
 
                     <Disclosure.Panel className="md:hidden">
 
-                        <Sidebar />
+                        {/* <Sidebar /> */}
+                    
+
+                        <ul className={` md:flex md:items-center md:pb-0 pb-12 bg-orange-700 md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top:8rem ' : 'top-[-490px]'}`}>
+                            {
+                                Links.map((link) => (
+                                    <li key={link.name} className='md:ml-8  md:my-0 my-7 overflow-scroll'>
+
+                                        <div className='  h-10 text-center pt-1 flex flex-row '>
+                                            {/* <FaSignInAlt size={25}/> */}
+                                            <a href={link.link} className='  text-white  font-serif  hover:text-orange-600 duration-500 '>{link.icon} {link.name}</a>
+                                        </div>
+                                    </li>
+                                ))
+                            }
+
+                        </ul>
+
+
+
+
                     </Disclosure.Panel>
                 </>
             )}

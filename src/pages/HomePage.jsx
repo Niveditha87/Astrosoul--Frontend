@@ -47,7 +47,7 @@ function HomePage() {
         </div>
       </div>
    
-      <div className='container '>
+      <div className='md:container '>
         <Services/>
         <Astrologers />
         <Store />
