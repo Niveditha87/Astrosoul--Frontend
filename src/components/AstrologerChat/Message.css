@@ -1,0 +1,29 @@
+@mixin mobile{
+    @media screen and (max-width:480px){
+        @content
+        
+    }
+}
+@mixin table{
+    @media screen and (max-width:768px){
+        @content
+        
+    }
+}
+@mixin laptop{
+    @media screen and (max-width:1200px){
+        @content
+        
+    }
+}
+.owner{
+    flex-direction: row-reverse;
+}
+.p{
+    background-color: orange;
+    color: white;
+    border-radius: 10px 0px 10px 10px;
+}
+.messageContent{
+    align-items: flex-end;
+}

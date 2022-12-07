@@ -18,6 +18,7 @@ let Links = [
     { name: "Astrologer Login", link: "/astrologerLogin" },
     { name: "Register", link: "/astrologerRegistration" },
     { name: "Terms and Conditions", link: "" },
+    { name: "Live Astrologers", link: "/liveastrologer" },
 ];
 
 

@@ -29,9 +29,9 @@ function TodayHoroscope() {
                     </div>
                 </div>
                     <div className='bg-gray-200 flex flex-row md:pl-20 '>
-                        <div className='mt-4'>
+                        <a href='/' className='mt-4'>
                             <AiOutlineHome size={20} />
-                        </div>
+                        </a>
                         <div className='ml-2 bg-orange-500 border rounded-lg  m-2 p-1 w-52 flex justify-center'>
                             Kundli Matching
                         </div>

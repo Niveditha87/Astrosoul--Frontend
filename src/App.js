@@ -25,6 +25,16 @@ import Store from './components/Store';
 import Pooja from './components/Puja';
 import Products from './components/Products';
 import Cart from './components/Cart'
+
+import AstrologerHomePage from "./pages/AstrologerHomePage";
+import AstrologerChat from "./components/AstrologerChat/AstrologerChat";
+import UserChatForm from "./components/UserChatForm";
+import LiveAstrologers from "./components/LiveAstrologers";
+import AstrologerSidebar from "./components/Astrologer/AstrologerSidebar";
+import Dashboard from "./components/Astrologer/Dashboard/Dashboard";
+import CallChat from "./components/Astrologer/CallChat/CallChat";
+import Callbackqueue from "./components/Astrologer/CallbackQueue/CallbackQueue";
+import Wallet from "./components/Astrologer/Wallet/Wallet";
 function App() {
    
   return (
@@ -50,13 +60,23 @@ function App() {
         <Route path="/store" element={<Store />} />
         <Route path="/pooja" element={<Pooja />} />
         <Route path="/products" element={<Products />} />
-        <Route path="/cart" element={<Cart  />} />
+        <Route path="/cart" element={<Cart />} />
         <Route
           path="/astrologerRegistration"
           element={<AstrologerRegistration />}
         />
         <Route path="/astrologerLogin" element={<AstrologerLogin />} />
         <Route path="/userProfile" element={<UserProfile />} />
+
+        <Route path="/AstrologerHome" element={<AstrologerHomePage />} />
+        <Route path="/astrochat" element={<AstrologerChat />} />
+        <Route path="/userchatform" element={<UserChatForm />} />
+        <Route path="/liveastrologer" element={<LiveAstrologers />} />
+        <Route path="/astrologer" element={<AstrologerSidebar />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/callchat" element={<CallChat />} />
+        <Route path="/callbackqueue" element={<Callbackqueue />} />
+        <Route path="/wallet" element={<Wallet />} />
       </Routes>
     </BrowserRouter>
   );
