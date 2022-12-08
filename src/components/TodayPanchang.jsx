@@ -75,10 +75,10 @@ function TodayPanchang() {
                     </div>
                 </div>
 
-                <div className="bg-gray-300 flex  m-0 items-center h-40  w-full">
-                    <form className="flex md:gap-9 w-full  ">
+                {/* <div className="bg-gray-300 flex flex-row m-0 justify-center h-40  w-full">
+                    <form className="flex gap-9   ">
                         <select
-                            class="block appearance-none md:ml-40 md:w-3/4 bg-white-200 border border-gray-500 text-gray-700 py-3 px-4 md:pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                            class="block appearance-none text-center  bg-white-200 border border-gray-500 text-gray-700  md:pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500 w-[30rem] h-[2rem]"
                             placeholder="Enter a city"
                             id="grid-state"
                         >
@@ -86,11 +86,32 @@ function TodayPanchang() {
                             <option>Missouri</option>
                             <option>Texas</option>
                         </select>
-                        <button class="bg-yellow-500 mr-40 h-16 w-1/4 hover:bg-yellow-700  text-white font-bold py-2 px-4 border border-yellow-700 rounded-md">
+                        <button class="bg-yellow-500 mr-40 md:w-[300px] h-16 w-1/4 hover:bg-yellow-700  text-white font-bold py-2 px-4 border border-yellow-700 rounded-md">
                             Button
                         </button>
                     </form>
-                </div>
+                </div> */}
+                <div className="bg-gray-300 flex  m-0 items-center h-40  w-full">
+          <form className="flex flex-col justify-center md:flex-row gap-9 w-full  ">
+            {/* <div> */}
+                <select
+              class="block appearance-none ml-40 w-3/4 bg-white-200 border border-gray-500 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+              placeholder="Enter a city"
+              id="grid-state"
+            >
+              <option>New Mexico</option>
+              <option>Missouri</option>
+              <option>Texas</option>
+            </select> 
+            {/* </div> */}
+           {/* <div> */}
+            <button class="bg-yellow-500 mr-40 h-16 w-1/4 hover:bg-yellow-700  text-white font-bold py-2 px-4 border border-yellow-700 rounded-md">
+              Button
+            </button>
+           {/* </div> */}
+            
+          </form>
+        </div>
                 <div className="md:m-4 w-full">
                     <div className="flex justify-center text-3xl font-semibold p-3 mt-10 ">
                         TODAY'S PANCHANG
@@ -291,7 +312,7 @@ function TodayPanchang() {
                         </div>
                     </div>
                 </div>
-                <div className=" bg-blend-darken mt-6 shadow-gray-900 shadow-lg w-[19rem] mr-14 md:w-[100%] border-grey-100  block text-center items-center justify-center md:h-[700px]  rounded-md">
+                <div className=" bg-blend-darken mt-6 shadow-gray-900 shadow-lg w-[19rem] mr-14 md:w-[100%] border-grey-100  block text-center items-center justify-center md:h-[700px] md:m  rounded-md">
                     <div className="bg-orange-500 p-3 rounded-t-lg  text-lg">
                         Planetary Position at Sunrise
                     </div>

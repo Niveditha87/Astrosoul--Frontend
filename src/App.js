@@ -35,6 +35,7 @@ import Dashboard from "./components/Astrologer/Dashboard/Dashboard";
 import CallChat from "./components/Astrologer/CallChat/CallChat";
 import Callbackqueue from "./components/Astrologer/CallbackQueue/CallbackQueue";
 import Wallet from "./components/Astrologer/Wallet/Wallet";
+import KundaliHoroscope from './KundaliHoroscope';
 function App() {
    
   return (
@@ -77,6 +78,8 @@ function App() {
         <Route path="/callchat" element={<CallChat />} />
         <Route path="/callbackqueue" element={<Callbackqueue />} />
         <Route path="/wallet" element={<Wallet />} />
+        <Route path="/kundalihoroscope" element={<KundaliHoroscope  />} />
+
       </Routes>
     </BrowserRouter>
   );
