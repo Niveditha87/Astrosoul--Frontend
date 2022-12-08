@@ -38,12 +38,12 @@
 }
 
 /*.............login........... */
-
+/* 
 @media (max-width:600px){
   .login{
     position: relative;
     right: 0px;
-    max-width: 480px;
+    max-width: 100%;
     margin-right: -160px;
     margin-left: 0px;
     font-size: 12px;
@@ -52,14 +52,16 @@
     position: relative;
     bottom: 70px;
     right: 75px;
+    width:100%;
   }
   .log-box{
     position: relative;
     left: 5px;
     bottom: 70px;
     max-width: 65.5%;
+ 
   }
-}
+} */
 /* ..........astrologerLogin .......... */
 @media (max-width:650px){
   .astrolog{

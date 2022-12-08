@@ -9,10 +9,10 @@ const LoginPage = () => {
         <>
             {/* <PublicNavbar /> */}
             <section className="max-h-screen overflow-y-hidden login">
-                <div className="container px-4 mx-auto">
-                    <div className="max-w-5xl mx-auto">
-                        <div className="flex h-screen overflow-y-hidden">
-                            <div className="m-auto">
+                <div className="container px-4 mx-auto  ">
+                    {/* <div className="max-w-5xl mx-auto"> */}
+                        <div className="flex h-screen overflow-y-hidden ">
+                            <div className="m-auto  w-full md:w-[50%] lg:w-[30%]">
                                 <div className="flex flex-col items-center justify-center mb-10 sm:position log-head">
                                     <div>
                                         <h3 className="text-2xl font-bold font-heading uppercase">
@@ -27,14 +27,14 @@ const LoginPage = () => {
 
                                     {/* </div> */}
                                 </div>
-                                <h4 className="text-gray-400 log-head">Mobile Number</h4>
+                                <h4 className="text-gray-500 log-head">Mobile Number</h4>
 
-                                <div className="flex items-center pl-6 w-[34rem] mb-6 border border-slate-400 bg-white rounded-lg log-box">
+                                <div className="flex items-center pl-6 w-full mb-6 border border-slate-400 bg-white rounded-lg log-box">
                                     <FiPhoneCall />
                                     {/* Password */}
                                     <input
                                         value=""
-                                        className="w-full pr-6 pl-4 py-4 font-bold placeholder-gray-300 rounded-r-full focus:outline-none"
+                                        className=" pr-6 pl-4 py-4 font-bold placeholder-gray-300 rounded-r-full focus:outline-none "
                                         type="phonenumber"
                                         placeholder=" +91 45692 36562"
                                     />
@@ -56,7 +56,7 @@ const LoginPage = () => {
 
                             </div>
                         </div>
-                    </div>
+                    {/* </div> */}
                 </div>
             </section>
         </>
