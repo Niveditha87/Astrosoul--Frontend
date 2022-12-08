@@ -32,10 +32,10 @@ function Astrologers() {
                     id='slider2'
                     className='w-full h-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide'
                 >
-                    <div className='flex flex-row  h-[350px]  justify-center md:pl-10'>
+                    <div className='flex flex-row  h-[350px] justify-center md:pl-10'>
                         {data.map((item) => (
                             <>
-                                <div className='flex flex-col  w-[300px] h-[300px] mr-10 mt-10 border rounded-lg shadow-md shadow-black '>
+                                <div className='flex flex-col ml-5 mr-5 md:ml-0  w-[300px] h-[300px] md:mr-10 mt-10 border rounded-lg shadow-md shadow-black '>
                                     
                                     <div> 
                                         <img

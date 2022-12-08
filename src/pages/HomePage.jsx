@@ -33,15 +33,15 @@ function HomePage() {
           <div className='pl-3 pr-3 mt-10 md:mt-14 flex flex-row gap-10 justify-center '>
             <div className=' h-[6rem] text-sm md:text-lg rounded-lg bg-orange-400 w-[10rem] md:h-[5rem]'>
               <img src={call} className="h-10 flex mx-auto mt-2"/>
-              <a href="" className='flex justify-center font-semibold font-Paprika text-white text-center '>Call  Astrologers</a>
+              <a href="/astrologers" className='flex justify-center font-semibold font-Paprika text-white text-center '>Call  Astrologers</a>
             </div>
             <div className='h-[6rem] text-sm md:text-lg rounded-lg bg-orange-400 w-[12rem] md:h-[5rem] '>
               <img src={chat}  className="h-10 flex mx-auto mt-2 " />
-              <a href="" className='flex justify-center font-semibold font-Paprika text-white text-center '>Chat With  Astrologers</a>
+              <a href="/astrologers" className='flex justify-center font-semibold font-Paprika text-white text-center '>Chat With  Astrologers</a>
             </div>
             <div className=' h-[6rem] text-sm md:text-lg rounded-lg bg-orange-400 w-[10rem] md:h-[5rem] '>
               <img src={live} className="h-10 flex mx-auto mt-2" />
-              <a href="" className='flex justify-center font-semibold font-Paprika text-white text-center '>Live  Astrologers</a>
+              <a href="/liveastrologer" className='flex justify-center font-semibold font-Paprika text-white text-center '>Live  Astrologers</a>
             </div>
           </div>
         </div>

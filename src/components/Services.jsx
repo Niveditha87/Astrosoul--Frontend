@@ -18,7 +18,7 @@ function Services() {
                     SERVICES
                 </h1>
             </div>
-            <div className='ml-7 md:ml-0 flex items-center md:pl-40 md:pr-40 w-[16rem] md:w-[100%]  '>
+            <div className='ml-10 md:ml-0 flex items-center md:pl-40 md:pr-40 w-[16rem] md:w-[100%]  '>
                 <MdChevronLeft className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideLeft} size={40} />
                 <div
                     id='slider'

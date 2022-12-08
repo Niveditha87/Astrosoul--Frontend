@@ -72,7 +72,7 @@ function App() {
         <Route path="/astrochat" element={<AstrologerChat />} />
         <Route path="/userchatform" element={<UserChatForm />} />
         <Route path="/liveastrologer" element={<LiveAstrologers />} />
-        <Route path="/astrologer" element={<AstrologerSidebar />} />
+        <Route path="/astrologerSidebar" element={<AstrologerSidebar />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/callchat" element={<CallChat />} />
         <Route path="/callbackqueue" element={<Callbackqueue />} />
