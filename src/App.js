@@ -36,6 +36,25 @@ import CallChat from "./components/Astrologer/CallChat/CallChat";
 import Callbackqueue from "./components/Astrologer/CallbackQueue/CallbackQueue";
 import Wallet from "./components/Astrologer/Wallet/Wallet";
 import KundaliHoroscope from './KundaliHoroscope';
+import UsersideBar from './components/UserPanel/UsersideBar';
+import DailyHoroscope from './components/UserPanel/DailyHoroscope/DailyHoroscope';
+import MyWallet from './components/UserPanel/MyWallet/MyWallet';
+import Address from './components/UserPanel/Address/Address';
+import Members from './components/UserPanel/Members/Members';
+import MyFavorites from './components/UserPanel/MyFavorites/MyFavorites';
+import MyOrders from './components/UserPanel/MyOrders/MyOrders';
+import  MySubscription from './components/UserPanel/MySubscription/MySubscription';
+import CallChatHistory from './components/UserPanel/CallChatHistory/CallChatHistory';
+import MyCallRequest from './components/UserPanel/MyCallRequest/MyCallRequest';
+import MyReportList from './components/UserPanel/MyReportList/MyReportList';
+
+
+
+
+
+
+
+
 function App() {
    
   return (
@@ -79,6 +98,19 @@ function App() {
         <Route path="/callbackqueue" element={<Callbackqueue />} />
         <Route path="/wallet" element={<Wallet />} />
         <Route path="/kundalihoroscope" element={<KundaliHoroscope  />} />
+        <Route path='/usersidebar' element={<UsersideBar/>}/>
+        <Route path='/dailyhoroscope' element={<DailyHoroscope/>}/>
+        <Route path='/mywallet' element={<MyWallet/>}/>
+        <Route path='/address' element={<Address/>}/>
+        <Route path='/members' element={<Members/>}/>
+        <Route path='/myfavorites' element={<MyFavorites/>}/>
+        <Route path='/myorders' element={<MyOrders/>}/>
+        <Route path='/mysubscription' element={<MySubscription/>}/>
+        <Route path='/callchathistory' element={<CallChatHistory/>}/>
+        <Route path='/mycallrequest' element={<MyCallRequest/>}/>
+        <Route path='/myreportlist' element={<MyReportList/>}/>
+
+
 
       </Routes>
     </BrowserRouter>
